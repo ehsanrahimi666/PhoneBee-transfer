@@ -1,0 +1,12 @@
+# Experiments (Kaggle notebooks, NVIDIA Tesla T4)
+ultralytics==8.4.108
+transformers==4.51.3
+tokenizers==0.21.0
+huggingface_hub>=0.30,<1.0
+torch
+# Analysis of saved outputs (Python 3.13)
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+pillow==12.3.0
+openpyxl==3.1.5

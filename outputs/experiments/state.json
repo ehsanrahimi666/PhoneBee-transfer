@@ -1,0 +1,3811 @@
+{
+ "weights": {
+  "gbif500": {
+   "path": "/kaggle/input/datasets/ehsanrahimi666/phonebee-revision-weights/gbif500_pretrained.pt",
+   "sha256": "9959b8ce41420bcadc2528f8feacbb423321d1ecf3499ae3f2d1d0c920845c64",
+   "matches_listed": true
+  },
+  "gbif2000": {
+   "path": "/kaggle/input/datasets/ehsanrahimi666/phonebee-revision-weights/gbif2000_pretrained.pt",
+   "sha256": "a8355b49a55d7f9cd9898fb4078915f60ba223016c7c5f7adf173e0e28f430a1",
+   "matches_listed": true
+  },
+  "gbif5000": {
+   "path": "/kaggle/input/datasets/ehsanrahimi666/phonebee-revision-weights/gbif5000_pretrained.pt",
+   "sha256": "0c8244f5a1e6d9c8377d170017d748d36393f11bf9979ab83612bbc7aa3793c1",
+   "matches_listed": true
+  },
+  "ct500": {
+   "path": "/kaggle/input/datasets/ehsanrahimi666/phonebee-revision-weights/ct500_pretrained.pt",
+   "sha256": "ec928b553fabdb7cfe79effb64e6a619ee54379e1c3cf9c4acf049bd5f2a5b97",
+   "matches_listed": true
+  },
+  "ct2000": {
+   "path": "/kaggle/input/datasets/ehsanrahimi666/phonebee-revision-weights/ct2000_pretrained.pt",
+   "sha256": "c1b4d56f6ef5f38645d60358f3e9539408f939b0bd64a1feef3cd4ea3e864d9c",
+   "matches_listed": true
+  },
+  "ct5000": {
+   "path": "/kaggle/input/datasets/ehsanrahimi666/phonebee-revision-weights/ct5000_pretrained.pt",
+   "sha256": "8464e8d5772c810004d1e183b53c1f39cb6281f85e8aa5126efaa31032ba4e6a",
+   "matches_listed": true
+  }
+ },
+ "phase0": {
+  "gbif_root": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees",
+  "reference_folder": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees",
+  "pool_size": 98731,
+  "pool_size_expected": 98731,
+  "reference_folder_size": 98731,
+  "pool_identical_to_reference_folder": true,
+  "N500_reference_in_train": 225,
+  "N500_reference_in_val": 75,
+  "N2000_reference_in_train": 0,
+  "N2000_reference_in_val": 300,
+  "N5000_reference_in_train": 0,
+  "N5000_reference_in_val": 300
+ },
+ "ref_new": [
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6321102933.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235957341.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104479131.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193140847.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6253257975.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399790843.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413338920.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413313581.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352856935.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5075055712.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5081693547.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234176721.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063111783.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422500043.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236046317.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412854328.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6152386456.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178479924.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6194782973.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431927388.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412071674.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343326324.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236407563.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399396711.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6228483512.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342051698.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5069928446.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5007606902.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423021496.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412882575.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431913654.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413933669.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6170936476.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6353030691.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352661367.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413621944.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423526811.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236380667.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5007831950.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422698364.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6253220784.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344042089.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411052594.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6129812582.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343793666.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422249029.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6253345937.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342342477.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431348461.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5088002855.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400447720.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104500156.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398759323.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399604638.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178512974.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5008184604.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6169354545.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6183531216.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185198806.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235817755.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334676322.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398593044.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400482560.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399764325.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6169469059.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193453730.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6321158989.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342567141.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344934049.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236178692.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399280321.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342715127.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411160553.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178628116.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423984733.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334613574.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234627825.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424427400.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423565699.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412247611.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412302768.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400394465.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431480789.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423852353.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411834803.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344161788.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087184201.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410649730.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410703534.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411021479.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063064612.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431248830.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411843695.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6321114860.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195659454.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6147171130.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193397595.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344151688.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6163408062.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6187907785.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6186850833.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342624884.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412600725.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423195796.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342756998.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6227575313.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234998573.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413023636.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251485136.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236031541.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344838439.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236137666.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273599575.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422638366.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195798571.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431377480.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342090938.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5006691208.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087733217.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399346423.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6170877135.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413586015.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6186872488.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6274240415.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6133220422.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195974752.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185826568.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5101503762.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6168977313.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236005526.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104430346.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422508376.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6170542821.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422028567.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334017667.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6179298639.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234402360.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352765759.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352525565.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234747976.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234960073.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6228138501.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343686570.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6169513386.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412310496.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6341791721.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5064039247.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400446668.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6159427923.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087931789.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6274154754.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411750837.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342355657.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235671344.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422682937.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422566785.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5101234187.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423213405.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5036781589.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342805028.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344609144.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342804155.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398899764.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344144614.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343280073.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334615772.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6151680087.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251488705.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6179064555.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399424554.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424696326.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352724985.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087266420.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273911479.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235859970.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273889115.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251567516.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104399085.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6320497750.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6130583427.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411625805.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413308618.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235650249.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6159311692.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410580966.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236200909.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063452337.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411309563.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6179358272.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063862740.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104604211.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234339521.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5108249968.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422841631.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087446132.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6183267231.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423887735.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6170134874.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5108140950.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6188213264.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195457906.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063603289.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178633689.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412768002.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422784951.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411341615.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6130241402.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185940803.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410963747.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400219673.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234756410.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5134439389.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423770467.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410686822.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6430857664.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424693337.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195638855.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234949052.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6129984247.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6187946063.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423127545.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431533650.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235815361.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6274040923.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400108440.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398610176.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6188119871.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399803356.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6184814602.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6179560788.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411622391.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422483783.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342256539.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343139182.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193218882.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104663129.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6147269794.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6353173320.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6162845073.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399234272.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236502499.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411616097.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424376471.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178504328.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235071947.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6186128447.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413869828.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251843428.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6335001770.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6252327854.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5076902711.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5086562950.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423089545.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413621427.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087446450.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422767887.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398827707.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235644087.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6188646691.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343808695.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193469373.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424428512.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236326513.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6188378647.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334785022.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251522069.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399046243.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251589337.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6333933080.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6131073441.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273630722.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234611832.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6320190914.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424662412.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413285137.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273641921.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343005441.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398733952.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193318317.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6182742702.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400862361.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185558685.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234758520.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431014988.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5075088620.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6341714453.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431408793.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235389490.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400677484.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273210621.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185729622.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087879604.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400501767.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399296692.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400870302.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6430916395.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235854306.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235703162.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352699351.jpg",
+  "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343275185.jpg"
+ ],
+ "gbif_labels": {
+  "pairs": [
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6321102933.jpg",
+    "0 0.544169 0.642263 0.208873 0.104798"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235957341.jpg",
+    "0 0.441198 0.457601 0.172017 0.187359"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104479131.jpg",
+    "0 0.514569 0.518202 0.159320 0.161401"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193140847.jpg",
+    "0 0.524494 0.467795 0.286797 0.395641"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6253257975.jpg",
+    "0 0.453891 0.600792 0.192632 0.172221"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399790843.jpg",
+    "0 0.590195 0.416889 0.115565 0.142984"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413338920.jpg",
+    "0 0.531036 0.502755 0.376774 0.645000"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413313581.jpg",
+    "0 0.540419 0.400253 0.251175 0.421464"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352856935.jpg",
+    "0 0.547586 0.534647 0.656899 0.261867"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5075055712.jpg",
+    "0 0.385744 0.512108 0.450090 0.714438"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5081693547.jpg",
+    "0 0.481377 0.573305 0.886186 0.823336"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234176721.jpg",
+    "0 0.600988 0.541250 0.270671 0.268894"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063111783.jpg",
+    "0 0.626220 0.618844 0.174390 0.158559"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422500043.jpg",
+    "0 0.562538 0.529043 0.498872 0.345989"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236046317.jpg",
+    "0 0.488855 0.412158 0.315453 0.448088"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412854328.jpg",
+    "0 0.541670 0.513241 0.268385 0.369335"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6152386456.jpg",
+    "0 0.584161 0.556439 0.319135 0.318129"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178479924.jpg",
+    "0 0.501134 0.523902 0.128698 0.163515"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6194782973.jpg",
+    "0 0.675986 0.619268 0.289201 0.482676"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431927388.jpg",
+    "0 0.454501 0.513194 0.516978 0.315951"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412071674.jpg",
+    "0 0.622618 0.417050 0.545261 0.385315"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343326324.jpg",
+    "0 0.590379 0.519435 0.657932 0.444350"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236407563.jpg",
+    "0 0.479557 0.545468 0.104512 0.068656"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399396711.jpg",
+    "0 0.475874 0.393463 0.543372 0.628829"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6228483512.jpg",
+    "0 0.502829 0.402975 0.652633 0.662177"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342051698.jpg",
+    "0 0.443266 0.476321 0.346261 0.453195"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5069928446.jpg",
+    ""
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5007606902.jpg",
+    "0 0.425039 0.353546 0.756717 0.644611"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423021496.jpg",
+    "0 0.534395 0.483941 0.048465 0.095378"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412882575.jpg",
+    "0 0.500830 0.512244 0.429299 0.401799"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431913654.jpg",
+    "0 0.503169 0.564114 0.446276 0.171139"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413933669.jpg",
+    "0 0.504839 0.367621 0.261474 0.414475"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6170936476.jpg",
+    "0 0.465790 0.512986 0.537862 0.608943"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6353030691.jpg",
+    "0 0.425744 0.431524 0.278754 0.175887"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352661367.jpg",
+    "0 0.329975 0.669775 0.470673 0.356963"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413621944.jpg",
+    "0 0.440851 0.490707 0.697834 0.497698"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423526811.jpg",
+    "0 0.503864 0.474020 0.708985 0.514585"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236380667.jpg",
+    "0 0.545065 0.594458 0.243651 0.194776"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5007831950.jpg",
+    "0 0.533276 0.568048 0.503600 0.453208"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422698364.jpg",
+    "0 0.461995 0.502695 0.237710 0.234017"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6253220784.jpg",
+    "0 0.603720 0.584962 0.317671 0.096706"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344042089.jpg",
+    "0 0.540396 0.502458 0.527127 0.650789"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411052594.jpg",
+    "0 0.359104 0.503162 0.376770 0.560991"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6129812582.jpg",
+    "0 0.545921 0.502252 0.167168 0.131808"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343793666.jpg",
+    "0 0.617248 0.433165 0.155185 0.099273\n0 0.318365 0.443981 0.119249 0.083472"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422249029.jpg",
+    "0 0.473992 0.314573 0.310193 0.217088"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6253345937.jpg",
+    "0 0.350893 0.609054 0.179972 0.265502"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342342477.jpg",
+    "0 0.437587 0.509144 0.532551 0.698438"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431348461.jpg",
+    "0 0.560677 0.324601 0.458352 0.422490"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5088002855.jpg",
+    "0 0.442961 0.487786 0.191686 0.107607"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400447720.jpg",
+    "0 0.410130 0.481249 0.478686 0.369658"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104500156.jpg",
+    "0 0.515620 0.552239 0.144158 0.180894"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398759323.jpg",
+    "0 0.416446 0.518736 0.098709 0.078409\n0 0.390148 0.490596 0.194028 0.147664"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399604638.jpg",
+    "0 0.526211 0.432923 0.345804 0.218524"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178512974.jpg",
+    "0 0.576511 0.471067 0.375299 0.189790"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5008184604.jpg",
+    "0 0.452780 0.497077 0.896390 0.985807"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6169354545.jpg",
+    "0 0.553518 0.404331 0.423070 0.604164"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6183531216.jpg",
+    "0 0.610524 0.416234 0.083941 0.065241"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185198806.jpg",
+    "0 0.626452 0.367585 0.109896 0.100217"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235817755.jpg",
+    "0 0.223952 0.525044 0.112690 0.086579"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334676322.jpg",
+    "0 0.428084 0.645732 0.099318 0.062785"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398593044.jpg",
+    "0 0.493180 0.518951 0.420672 0.591319"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400482560.jpg",
+    "0 0.506063 0.504079 0.288018 0.259163"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399764325.jpg",
+    "0 0.499808 0.469970 0.227626 0.421936"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6169469059.jpg",
+    "0 0.432117 0.498268 0.140718 0.139028"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193453730.jpg",
+    ""
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6321158989.jpg",
+    "0 0.453458 0.418761 0.502976 0.764806"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342567141.jpg",
+    "0 0.557193 0.507000 0.652092 0.595100"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344934049.jpg",
+    "0 0.484935 0.636247 0.239828 0.396513"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236178692.jpg",
+    "0 0.477337 0.500851 0.164326 0.152103"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399280321.jpg",
+    "0 0.514951 0.431672 0.442238 0.253648"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342715127.jpg",
+    "0 0.461383 0.458528 0.105058 0.133291"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411160553.jpg",
+    "0 0.465254 0.551525 0.246583 0.321577"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178628116.jpg",
+    "0 0.530003 0.464805 0.312337 0.135388"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423984733.jpg",
+    "0 0.475774 0.455281 0.766519 0.666544"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334613574.jpg",
+    "0 0.508769 0.478070 0.889984 0.798021"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234627825.jpg",
+    "0 0.601453 0.613118 0.783863 0.503304"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424427400.jpg",
+    "0 0.549974 0.451443 0.339918 0.255139"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423565699.jpg",
+    "0 0.290561 0.375303 0.469794 0.387277"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412247611.jpg",
+    "0 0.485269 0.408605 0.301700 0.259841"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412302768.jpg",
+    "0 0.461287 0.514893 0.681230 0.556014"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400394465.jpg",
+    "0 0.464455 0.640098 0.221596 0.300792"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431480789.jpg",
+    "0 0.449346 0.468611 0.110263 0.065238"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423852353.jpg",
+    "0 0.519733 0.507324 0.520741 0.589180"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411834803.jpg",
+    "0 0.437472 0.491233 0.534123 0.419586"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344161788.jpg",
+    "0 0.515618 0.541058 0.208691 0.256943"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087184201.jpg",
+    "0 0.304522 0.620763 0.173924 0.140677\n0 0.710064 0.671624 0.169463 0.143894\n0 0.499551 0.092049 0.175818 0.140734\n0 0.512516 0.953168 0.177531 0.090661"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410649730.jpg",
+    "0 0.183161 0.379877 0.344825 0.298023"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410703534.jpg",
+    "0 0.384100 0.631998 0.756609 0.721262"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411021479.jpg",
+    "0 0.498658 0.491022 0.399404 0.390598"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063064612.jpg",
+    "0 0.488561 0.472007 0.616573 0.666151"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431248830.jpg",
+    "0 0.583188 0.492875 0.149168 0.072539"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411843695.jpg",
+    "0 0.549375 0.412869 0.428659 0.503872"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6321114860.jpg",
+    "0 0.280445 0.380954 0.230053 0.206270"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195659454.jpg",
+    "0 0.436750 0.352108 0.217737 0.184966"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6147171130.jpg",
+    "0 0.467796 0.485128 0.368618 0.139795"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193397595.jpg",
+    "0 0.380732 0.564988 0.186056 0.227680"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344151688.jpg",
+    "0 0.483139 0.669391 0.415811 0.467123"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6163408062.jpg",
+    "0 0.550708 0.587308 0.104254 0.104332"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6187907785.jpg",
+    "0 0.309591 0.279124 0.256126 0.152082"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6186850833.jpg",
+    "0 0.514324 0.489722 0.459764 0.712715"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342624884.jpg",
+    "0 0.464618 0.543100 0.620969 0.413879"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412600725.jpg",
+    "0 0.547154 0.458655 0.760215 0.689245"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423195796.jpg",
+    "0 0.498826 0.378150 0.365238 0.297081"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342756998.jpg",
+    "0 0.369897 0.481169 0.242659 0.493278"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6227575313.jpg",
+    "0 0.408714 0.737505 0.117265 0.333071"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234998573.jpg",
+    "0 0.349063 0.444820 0.192449 0.242112"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413023636.jpg",
+    "0 0.576412 0.549667 0.387504 0.144624"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251485136.jpg",
+    "0 0.408775 0.312504 0.307127 0.238112"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236031541.jpg",
+    "0 0.500918 0.509301 0.288494 0.344797"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344838439.jpg",
+    "0 0.430263 0.373329 0.499433 0.467510"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236137666.jpg",
+    "0 0.446333 0.360230 0.088537 0.056925"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273599575.jpg",
+    "0 0.552756 0.547850 0.729401 0.521487"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422638366.jpg",
+    "0 0.670280 0.608235 0.300764 0.291288"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195798571.jpg",
+    "0 0.583873 0.507863 0.359630 0.239572"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431377480.jpg",
+    "0 0.504991 0.481166 0.427932 0.352210"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342090938.jpg",
+    "0 0.448887 0.709074 0.392122 0.297446"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5006691208.jpg",
+    "0 0.491753 0.513650 0.465164 0.772900"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087733217.jpg",
+    "0 0.461134 0.522568 0.688994 0.890669"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399346423.jpg",
+    "0 0.466983 0.411847 0.352970 0.399217"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6170877135.jpg",
+    "0 0.498577 0.478097 0.652399 0.610780"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413586015.jpg",
+    "0 0.534316 0.526286 0.643650 0.405755"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6186872488.jpg",
+    "0 0.283584 0.748140 0.266860 0.216582"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6274240415.jpg",
+    "0 0.548912 0.704074 0.155324 0.124537"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6133220422.jpg",
+    "0 0.473265 0.477267 0.473468 0.339833"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195974752.jpg",
+    "0 0.479408 0.600590 0.280128 0.149667"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185826568.jpg",
+    "0 0.418331 0.446216 0.554793 0.665406"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5101503762.jpg",
+    "0 0.494857 0.485684 0.678483 0.812268"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6168977313.jpg",
+    "0 0.461960 0.527100 0.608666 0.591174"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236005526.jpg",
+    "0 0.425818 0.558533 0.213755 0.143084"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104430346.jpg",
+    "0 0.294180 0.434109 0.145200 0.111774"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422508376.jpg",
+    "0 0.605412 0.332631 0.313143 0.239009"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6170542821.jpg",
+    "0 0.446779 0.531494 0.557860 0.661531"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422028567.jpg",
+    "0 0.521641 0.491475 0.499002 0.668772"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334017667.jpg",
+    "0 0.381077 0.467208 0.688682 0.537695"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6179298639.jpg",
+    "0 0.452333 0.525194 0.602036 0.881349"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234402360.jpg",
+    "0 0.567765 0.464811 0.202939 0.137023"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352765759.jpg",
+    "0 0.518981 0.462085 0.241198 0.380402"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352525565.jpg",
+    "0 0.500530 0.475569 0.156622 0.230797"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234747976.jpg",
+    "0 0.475610 0.442292 0.075241 0.057864"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234960073.jpg",
+    "0 0.441247 0.551546 0.037337 0.048869"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6228138501.jpg",
+    "0 0.501977 0.481298 0.454789 0.315540"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343686570.jpg",
+    "0 0.438574 0.446849 0.519262 0.638001"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6169513386.jpg",
+    "0 0.515670 0.455912 0.898766 0.630150"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412310496.jpg",
+    "0 0.533973 0.495868 0.400121 0.522271"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6341791721.jpg",
+    "0 0.472340 0.450332 0.480704 0.609088"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5064039247.jpg",
+    "0 0.609420 0.536151 0.179781 0.150374"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400446668.jpg",
+    "0 0.524795 0.713432 0.222183 0.157201"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6159427923.jpg",
+    "0 0.544285 0.626630 0.203047 0.230454"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087931789.jpg",
+    "0 0.775824 0.747760 0.198826 0.333574"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6274154754.jpg",
+    "0 0.501579 0.483726 0.212720 0.131205"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411750837.jpg",
+    "0 0.427943 0.546002 0.561658 0.443079"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342355657.jpg",
+    "0 0.505854 0.510168 0.408909 0.353904"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235671344.jpg",
+    "0 0.590436 0.295326 0.581924 0.430123"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422682937.jpg",
+    "0 0.608919 0.522115 0.194866 0.131166"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422566785.jpg",
+    "0 0.520915 0.400812 0.246722 0.240729"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5101234187.jpg",
+    "0 0.540866 0.478790 0.902239 0.857351"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423213405.jpg",
+    "0 0.496459 0.359570 0.316433 0.181786"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5036781589.jpg",
+    "0 0.432744 0.391538 0.202420 0.239549"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342805028.jpg",
+    "0 0.475920 0.470164 0.228239 0.313036"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344609144.jpg",
+    "0 0.431483 0.562126 0.598380 0.468543"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342804155.jpg",
+    "0 0.488220 0.491336 0.572229 0.435035"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398899764.jpg",
+    "0 0.418871 0.606686 0.243833 0.179140"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6344144614.jpg",
+    "0 0.375568 0.340972 0.441445 0.240972"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343280073.jpg",
+    "0 0.471106 0.524243 0.653234 0.574476"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334615772.jpg",
+    "0 0.156001 0.294786 0.287600 0.179230\n0 0.417233 0.261642 0.177209 0.180614"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6151680087.jpg",
+    "0 0.466495 0.494600 0.606569 0.446205"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251488705.jpg",
+    "0 0.520919 0.564369 0.306852 0.354171"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6179064555.jpg",
+    "0 0.427135 0.471891 0.421120 0.294569"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399424554.jpg",
+    "0 0.470302 0.411263 0.086654 0.092322"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424696326.jpg",
+    "0 0.468432 0.457497 0.570727 0.739399"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352724985.jpg",
+    "0 0.539444 0.532376 0.464528 0.534535"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087266420.jpg",
+    "0 0.564766 0.353795 0.106914 0.095393"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273911479.jpg",
+    "0 0.507788 0.451687 0.394056 0.484332"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235859970.jpg",
+    "0 0.485948 0.463148 0.150660 0.150803"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273889115.jpg",
+    ""
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251567516.jpg",
+    "0 0.437576 0.481481 0.124712 0.085269"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104399085.jpg",
+    "0 0.442760 0.554054 0.107657 0.175462"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6320497750.jpg",
+    "0 0.520176 0.548207 0.168519 0.120900"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6130583427.jpg",
+    "0 0.454005 0.538901 0.305915 0.472984"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411625805.jpg",
+    "0 0.526709 0.486382 0.411758 0.426728"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413308618.jpg",
+    "0 0.519789 0.339072 0.222605 0.140606"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235650249.jpg",
+    "0 0.531965 0.395082 0.283329 0.403031"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6159311692.jpg",
+    "0 0.489805 0.594720 0.155367 0.177644"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410580966.jpg",
+    "0 0.475287 0.499605 0.743914 0.786230"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236200909.jpg",
+    "0 0.542600 0.455259 0.241734 0.162962"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063452337.jpg",
+    "0 0.231189 0.595612 0.165853 0.215341"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411309563.jpg",
+    "0 0.442279 0.433335 0.496397 0.714791"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6179358272.jpg",
+    "0 0.475100 0.673139 0.335691 0.239657"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063862740.jpg",
+    "0 0.538691 0.376713 0.175681 0.080500\n0 0.233352 0.499148 0.105286 0.076265"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104604211.jpg",
+    "0 0.576206 0.514227 0.630855 0.486731"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234339521.jpg",
+    "0 0.308767 0.492488 0.192696 0.118498"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5108249968.jpg",
+    "0 0.444649 0.448037 0.159363 0.319137"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422841631.jpg",
+    "0 0.603051 0.355987 0.412641 0.399507"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087446132.jpg",
+    "0 0.536758 0.445778 0.602945 0.593295"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6183267231.jpg",
+    "0 0.369103 0.709732 0.306303 0.164344"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423887735.jpg",
+    "0 0.441096 0.535131 0.846758 0.656907"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6170134874.jpg",
+    "0 0.472014 0.520969 0.382746 0.415343"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5108140950.jpg",
+    "0 0.433404 0.599436 0.112111 0.102047"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6188213264.jpg",
+    "0 0.440339 0.570178 0.466174 0.549928"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195457906.jpg",
+    "0 0.296413 0.450866 0.075213 0.093642"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5063603289.jpg",
+    "0 0.731126 0.477182 0.140352 0.248739"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178633689.jpg",
+    "0 0.633805 0.454616 0.214324 0.171192"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412768002.jpg",
+    "0 0.422716 0.478725 0.355566 0.617700"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422784951.jpg",
+    "0 0.523659 0.430199 0.591733 0.207583"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411341615.jpg",
+    "0 0.484506 0.466979 0.528073 0.643318"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6130241402.jpg",
+    "0 0.458229 0.666952 0.435980 0.313499"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185940803.jpg",
+    "0 0.446899 0.473681 0.250049 0.251423"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410963747.jpg",
+    "0 0.428550 0.620232 0.235428 0.174497"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400219673.jpg",
+    "0 0.359148 0.550997 0.126093 0.114692"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234756410.jpg",
+    "0 0.473485 0.455953 0.144976 0.106344"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5134439389.jpg",
+    "0 0.468914 0.472498 0.267981 0.327288"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423770467.jpg",
+    "0 0.564212 0.507167 0.394881 0.401686"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6410686822.jpg",
+    "0 0.515281 0.582013 0.490265 0.606319"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6430857664.jpg",
+    "0 0.477468 0.552409 0.394018 0.257765\n0 0.628858 0.654151 0.051973 0.038719\n0 0.567871 0.647304 0.041206 0.045719"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424693337.jpg",
+    "0 0.419505 0.601002 0.758977 0.705844"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6195638855.jpg",
+    "0 0.455730 0.432604 0.229004 0.238658"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234949052.jpg",
+    "0 0.919455 0.448878 0.154562 0.106300\n0 0.635833 0.296973 0.230229 0.087833"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6129984247.jpg",
+    "0 0.423033 0.472254 0.562967 0.301134"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6187946063.jpg",
+    "0 0.422301 0.521520 0.279825 0.294840"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423127545.jpg",
+    "0 0.495461 0.652350 0.228111 0.244659"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431533650.jpg",
+    "0 0.556180 0.521738 0.341609 0.256829"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235815361.jpg",
+    "0 0.692685 0.441198 0.181122 0.245696"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6274040923.jpg",
+    "0 0.413785 0.359919 0.154446 0.253546"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400108440.jpg",
+    "0 0.453602 0.535227 0.153086 0.109211"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398610176.jpg",
+    "0 0.550319 0.523082 0.720684 0.299767"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6188119871.jpg",
+    "0 0.333993 0.484094 0.198041 0.096464"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399803356.jpg",
+    "0 0.849858 0.341361 0.260293 0.185876"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6184814602.jpg",
+    "0 0.578466 0.512377 0.332905 0.283954"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6179560788.jpg",
+    ""
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411622391.jpg",
+    "0 0.629709 0.491089 0.404761 0.254605"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422483783.jpg",
+    "0 0.461337 0.552816 0.287240 0.847829"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6342256539.jpg",
+    "0 0.504262 0.512326 0.526739 0.606938"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343139182.jpg",
+    "0 0.463826 0.534765 0.332226 0.340137"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193218882.jpg",
+    "0 0.407671 0.502577 0.436986 0.321320"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5104663129.jpg",
+    "0 0.541376 0.497310 0.189236 0.282846"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6147269794.jpg",
+    "0 0.588385 0.406320 0.228549 0.165967"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6353173320.jpg",
+    "0 0.514127 0.518568 0.456752 0.259018"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6162845073.jpg",
+    "0 0.343042 0.657274 0.216559 0.439142"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399234272.jpg",
+    "0 0.626464 0.662777 0.236972 0.177818"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236502499.jpg",
+    "0 0.423897 0.392939 0.184924 0.156686"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6411616097.jpg",
+    "0 0.361203 0.381733 0.149046 0.151619"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424376471.jpg",
+    "0 0.535582 0.535111 0.520394 0.607499"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6178504328.jpg",
+    "0 0.543505 0.524220 0.603375 0.427425"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235071947.jpg",
+    "0 0.344855 0.439233 0.283413 0.329216"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6186128447.jpg",
+    "0 0.348497 0.541278 0.323969 0.402109"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413869828.jpg",
+    "0 0.365871 0.410095 0.166047 0.188466"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251843428.jpg",
+    "0 0.387057 0.453759 0.184997 0.187431"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6335001770.jpg",
+    "0 0.478019 0.642064 0.332234 0.270061"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6252327854.jpg",
+    "0 0.595283 0.335950 0.537681 0.477750"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5076902711.jpg",
+    "0 0.332552 0.450404 0.125506 0.150786"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5086562950.jpg",
+    "0 0.511237 0.441562 0.535408 0.536967"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423089545.jpg",
+    "0 0.495652 0.485740 0.549541 0.729711"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413621427.jpg",
+    "0 0.442252 0.500169 0.115264 0.095511"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087446450.jpg",
+    "0 0.542718 0.594935 0.154463 0.158869\n0 0.666930 0.876205 0.145605 0.151881"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6422767887.jpg",
+    "0 0.350635 0.608395 0.165028 0.128066"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398827707.jpg",
+    "0 0.430911 0.408009 0.332973 0.428588"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235644087.jpg",
+    "0 0.468908 0.592153 0.368669 0.354620"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6188646691.jpg",
+    "0 0.847155 0.364241 0.174858 0.096337"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343808695.jpg",
+    "0 0.552301 0.502829 0.485630 0.426994"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193469373.jpg",
+    "0 0.389693 0.478215 0.416861 0.393594"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424428512.jpg",
+    "0 0.541159 0.438015 0.193224 0.129226"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6236326513.jpg",
+    "0 0.447580 0.422812 0.056545 0.032515"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6188378647.jpg",
+    "0 0.631311 0.390964 0.195841 0.248326"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6334785022.jpg",
+    "0 0.452082 0.459491 0.251111 0.189573"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251522069.jpg",
+    "0 0.308374 0.514198 0.317065 0.235447"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399046243.jpg",
+    "0 0.501277 0.488568 0.311885 0.254399"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6251589337.jpg",
+    "0 0.485168 0.405771 0.159579 0.143303"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6333933080.jpg",
+    "0 0.449029 0.537662 0.363846 0.224836"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6131073441.jpg",
+    "0 0.733436 0.685799 0.442422 0.431810"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273630722.jpg",
+    "0 0.347810 0.457076 0.299113 0.208143"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234611832.jpg",
+    "0 0.627735 0.461839 0.368641 0.262690"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6320190914.jpg",
+    "0 0.511022 0.609938 0.492483 0.515057"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6424662412.jpg",
+    "0 0.366224 0.480708 0.517266 0.503277"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6413285137.jpg",
+    "0 0.456367 0.537877 0.328180 0.178045\n0 0.671842 0.475639 0.273304 0.168797"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273641921.jpg",
+    "0 0.514067 0.571820 0.158353 0.154324"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343005441.jpg",
+    "0 0.666418 0.616401 0.487421 0.411388"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6398733952.jpg",
+    "0 0.423244 0.359047 0.125796 0.171611"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6193318317.jpg",
+    "0 0.436125 0.613943 0.467029 0.399903"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6182742702.jpg",
+    "0 0.466422 0.510240 0.330739 0.329852"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400862361.jpg",
+    "0 0.675065 0.498242 0.186519 0.365745"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185558685.jpg",
+    "0 0.544210 0.547354 0.189881 0.330225"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6234758520.jpg",
+    "0 0.623167 0.532354 0.285151 0.186047"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431014988.jpg",
+    "0 0.403325 0.692606 0.297048 0.197555"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5075088620.jpg",
+    "0 0.508480 0.531752 0.441232 0.362501"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6341714453.jpg",
+    "0 0.447040 0.451452 0.334358 0.307187"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6431408793.jpg",
+    "0 0.489556 0.579808 0.151486 0.085511"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235389490.jpg",
+    "0 0.369077 0.472938 0.418268 0.319320"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400677484.jpg",
+    "0 0.549358 0.481278 0.522643 0.853940"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6273210621.jpg",
+    "0 0.522471 0.534021 0.214844 0.433842"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6185729622.jpg",
+    "0 0.621412 0.343102 0.353513 0.256663"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/5087879604.jpg",
+    "0 0.557745 0.338326 0.476330 0.356650"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400501767.jpg",
+    "0 0.505074 0.540986 0.133231 0.263507"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6399296692.jpg",
+    "0 0.541390 0.471827 0.202001 0.130934"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400870302.jpg",
+    "0 0.585234 0.364359 0.511389 0.510814"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6430916395.jpg",
+    "0 0.446654 0.505048 0.671007 0.740835"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235854306.jpg",
+    "0 0.527193 0.417853 0.105903 0.077965"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235703162.jpg",
+    "0 0.335156 0.441164 0.311050 0.454350"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6352699351.jpg",
+    "0 0.486290 0.429706 0.149541 0.160350"
+   ],
+   [
+    "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6343275185.jpg",
+    "0 0.424877 0.418749 0.577462 0.612364"
+   ]
+  ],
+  "n_images": 300,
+  "n_with_box": 296,
+  "n_boxes": 308,
+  "median_box_side": 0.2961773643116884
+ },
+ "gbif_check_sheet": [
+  10,
+  17,
+  18,
+  19,
+  20,
+  23,
+  24,
+  25,
+  29,
+  30,
+  31,
+  32,
+  35,
+  37,
+  38,
+  42,
+  44,
+  46,
+  48,
+  49,
+  52,
+  60,
+  62,
+  63,
+  68,
+  69,
+  73,
+  76,
+  77,
+  80,
+  87,
+  89,
+  92,
+  96,
+  105,
+  107,
+  109,
+  113,
+  114,
+  116,
+  121,
+  123,
+  125,
+  126,
+  127,
+  131,
+  134,
+  142,
+  146,
+  147,
+  148,
+  149,
+  152,
+  155,
+  157,
+  160,
+  165,
+  170,
+  171,
+  177,
+  178,
+  186,
+  187,
+  190,
+  193,
+  195,
+  199,
+  202,
+  203,
+  204,
+  209,
+  214,
+  217,
+  218,
+  222,
+  224,
+  226,
+  229,
+  236,
+  237,
+  238,
+  246,
+  250,
+  252,
+  254,
+  259,
+  260,
+  266,
+  269,
+  271,
+  273,
+  274,
+  276,
+  278,
+  279,
+  280,
+  282,
+  285,
+  288,
+  297
+ ],
+ "identity_sheet": [
+  [
+   0,
+   0
+  ],
+  [
+   4,
+   0
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   9,
+   0
+  ],
+  [
+   11,
+   0
+  ],
+  [
+   11,
+   2
+  ],
+  [
+   13,
+   0
+  ],
+  [
+   16,
+   0
+  ],
+  [
+   18,
+   0
+  ],
+  [
+   20,
+   1
+  ],
+  [
+   21,
+   0
+  ],
+  [
+   24,
+   2
+  ],
+  [
+   29,
+   0
+  ],
+  [
+   29,
+   1
+  ],
+  [
+   30,
+   1
+  ],
+  [
+   31,
+   1
+  ],
+  [
+   33,
+   1
+  ],
+  [
+   35,
+   0
+  ],
+  [
+   35,
+   1
+  ],
+  [
+   35,
+   2
+  ],
+  [
+   39,
+   0
+  ],
+  [
+   39,
+   2
+  ],
+  [
+   40,
+   1
+  ],
+  [
+   41,
+   2
+  ],
+  [
+   42,
+   3
+  ],
+  [
+   43,
+   4
+  ],
+  [
+   44,
+   0
+  ],
+  [
+   46,
+   1
+  ],
+  [
+   48,
+   3
+  ],
+  [
+   49,
+   0
+  ],
+  [
+   53,
+   0
+  ],
+  [
+   57,
+   0
+  ],
+  [
+   59,
+   1
+  ],
+  [
+   65,
+   0
+  ],
+  [
+   66,
+   1
+  ],
+  [
+   71,
+   0
+  ],
+  [
+   84,
+   0
+  ],
+  [
+   89,
+   0
+  ],
+  [
+   90,
+   0
+  ],
+  [
+   90,
+   1
+  ],
+  [
+   91,
+   0
+  ],
+  [
+   93,
+   0
+  ],
+  [
+   94,
+   0
+  ],
+  [
+   98,
+   1
+  ],
+  [
+   100,
+   0
+  ],
+  [
+   106,
+   1
+  ],
+  [
+   107,
+   0
+  ],
+  [
+   108,
+   0
+  ],
+  [
+   109,
+   0
+  ],
+  [
+   109,
+   1
+  ],
+  [
+   120,
+   1
+  ],
+  [
+   122,
+   1
+  ],
+  [
+   124,
+   2
+  ],
+  [
+   124,
+   3
+  ],
+  [
+   125,
+   2
+  ],
+  [
+   128,
+   1
+  ],
+  [
+   131,
+   0
+  ],
+  [
+   134,
+   3
+  ],
+  [
+   136,
+   1
+  ],
+  [
+   140,
+   2
+  ],
+  [
+   141,
+   1
+  ],
+  [
+   142,
+   0
+  ],
+  [
+   142,
+   2
+  ],
+  [
+   144,
+   2
+  ],
+  [
+   144,
+   3
+  ],
+  [
+   147,
+   0
+  ],
+  [
+   148,
+   2
+  ],
+  [
+   153,
+   2
+  ],
+  [
+   154,
+   1
+  ],
+  [
+   156,
+   1
+  ],
+  [
+   158,
+   0
+  ],
+  [
+   173,
+   2
+  ],
+  [
+   174,
+   0
+  ],
+  [
+   175,
+   2
+  ],
+  [
+   179,
+   1
+  ],
+  [
+   181,
+   1
+  ],
+  [
+   186,
+   0
+  ],
+  [
+   186,
+   1
+  ],
+  [
+   186,
+   2
+  ],
+  [
+   187,
+   0
+  ],
+  [
+   188,
+   0
+  ],
+  [
+   189,
+   3
+  ],
+  [
+   191,
+   0
+  ],
+  [
+   195,
+   0
+  ],
+  [
+   196,
+   0
+  ],
+  [
+   208,
+   0
+  ],
+  [
+   208,
+   1
+  ],
+  [
+   210,
+   1
+  ],
+  [
+   211,
+   0
+  ],
+  [
+   212,
+   2
+  ],
+  [
+   213,
+   0
+  ],
+  [
+   213,
+   1
+  ],
+  [
+   214,
+   1
+  ],
+  [
+   217,
+   0
+  ],
+  [
+   218,
+   0
+  ],
+  [
+   220,
+   2
+  ],
+  [
+   222,
+   1
+  ],
+  [
+   224,
+   2
+  ],
+  [
+   225,
+   0
+  ],
+  [
+   228,
+   3
+  ],
+  [
+   232,
+   0
+  ],
+  [
+   232,
+   1
+  ],
+  [
+   234,
+   1
+  ],
+  [
+   235,
+   0
+  ],
+  [
+   237,
+   0
+  ],
+  [
+   239,
+   1
+  ],
+  [
+   241,
+   1
+  ],
+  [
+   248,
+   0
+  ],
+  [
+   252,
+   0
+  ],
+  [
+   252,
+   1
+  ],
+  [
+   254,
+   0
+  ],
+  [
+   255,
+   0
+  ],
+  [
+   258,
+   2
+  ],
+  [
+   260,
+   2
+  ],
+  [
+   262,
+   1
+  ],
+  [
+   263,
+   2
+  ],
+  [
+   264,
+   0
+  ],
+  [
+   265,
+   0
+  ],
+  [
+   266,
+   2
+  ],
+  [
+   267,
+   0
+  ],
+  [
+   267,
+   1
+  ],
+  [
+   269,
+   0
+  ],
+  [
+   270,
+   2
+  ],
+  [
+   271,
+   0
+  ],
+  [
+   275,
+   0
+  ],
+  [
+   277,
+   2
+  ],
+  [
+   279,
+   2
+  ],
+  [
+   282,
+   2
+  ],
+  [
+   284,
+   0
+  ],
+  [
+   287,
+   0
+  ],
+  [
+   289,
+   1
+  ],
+  [
+   289,
+   2
+  ],
+  [
+   292,
+   0
+  ],
+  [
+   294,
+   0
+  ],
+  [
+   297,
+   0
+  ],
+  [
+   299,
+   0
+  ],
+  [
+   301,
+   0
+  ],
+  [
+   301,
+   1
+  ],
+  [
+   301,
+   2
+  ],
+  [
+   302,
+   2
+  ],
+  [
+   304,
+   0
+  ],
+  [
+   304,
+   2
+  ],
+  [
+   317,
+   0
+  ],
+  [
+   320,
+   0
+  ],
+  [
+   324,
+   1
+  ],
+  [
+   330,
+   0
+  ],
+  [
+   331,
+   1
+  ],
+  [
+   331,
+   2
+  ],
+  [
+   332,
+   2
+  ],
+  [
+   332,
+   4
+  ]
+ ],
+ "transfer": {
+  "gbif500->GBIFdisjoint@640": {
+   "precision": 0.8591107430365283,
+   "recall": 0.8513142289035933,
+   "f1": 0.8551947168092902,
+   "mAP50": 0.9143246954323936,
+   "mAP50_95": 0.6283817113385819
+  },
+  "gbif500->GBIFdisjoint@1280": {
+   "precision": 0.7920623598597856,
+   "recall": 0.685064935064935,
+   "f1": 0.7346884063263845,
+   "mAP50": 0.7902699395685293,
+   "mAP50_95": 0.4825947112664629
+  },
+  "gbif2000->GBIFdisjoint@640": {
+   "precision": 0.9198015275857067,
+   "recall": 0.9309327045060114,
+   "f1": 0.9253336420068851,
+   "mAP50": 0.9668988843429563,
+   "mAP50_95": 0.7572130635747507
+  },
+  "gbif2000->GBIFdisjoint@1280": {
+   "precision": 0.8661201283005018,
+   "recall": 0.8084415584415584,
+   "f1": 0.8362875036071645,
+   "mAP50": 0.8784931998717355,
+   "mAP50_95": 0.6064334261702238
+  },
+  "gbif5000->GBIFdisjoint@640": {
+   "precision": 0.94990195412085,
+   "recall": 0.9707792207792207,
+   "f1": 0.9602271224281409,
+   "mAP50": 0.981182914185922,
+   "mAP50_95": 0.7898299771712763
+  },
+  "gbif5000->GBIFdisjoint@1280": {
+   "precision": 0.8986713745957183,
+   "recall": 0.8441558441558441,
+   "f1": 0.8705609881213147,
+   "mAP50": 0.914193584097725,
+   "mAP50_95": 0.634568354745726
+  },
+  "ct500->GBIFdisjoint@640": {
+   "precision": 0.013666446408724898,
+   "recall": 0.003246753246753247,
+   "f1": 0.005246976344270254,
+   "mAP50": 0.00010727140519905471,
+   "mAP50_95": 7.100507270445245e-05
+  },
+  "ct500->GBIFdisjoint@1280": {
+   "precision": 4.5435958017174794e-05,
+   "recall": 0.003246753246753247,
+   "f1": 8.961778016758526e-05,
+   "mAP50": 5.936127270568681e-07,
+   "mAP50_95": 1.7808381811706043e-07
+  },
+  "ct2000->GBIFdisjoint@640": {
+   "precision": 0.01879363136167927,
+   "recall": 0.003246753246753247,
+   "f1": 0.005536952709842512,
+   "mAP50": 0.000125,
+   "mAP50_95": 8.719512195121952e-05
+  },
+  "ct2000->GBIFdisjoint@1280": {
+   "precision": 0.001148084112605906,
+   "recall": 0.006493506493506494,
+   "f1": 0.0019511884434988888,
+   "mAP50": 7.4404761904761905e-06,
+   "mAP50_95": 9.407431343898693e-07
+  },
+  "ct5000->GBIFdisjoint@640": {
+   "precision": 0.0032438808611029196,
+   "recall": 0.03571428571428571,
+   "f1": 0.005947553392808867,
+   "mAP50": 0.00020051403558090037,
+   "mAP50_95": 4.184852114814086e-05
+  },
+  "ct5000->GBIFdisjoint@1280": {
+   "precision": 0.00014419610670511897,
+   "recall": 0.003246753246753247,
+   "f1": 0.0002761286759629988,
+   "mAP50": 1.485001485001485e-06,
+   "mAP50_95": 5.94000594000594e-07
+  },
+  "coco_fold0->CTtest@640": {
+   "precision": 0.0007269186938646244,
+   "recall": 0.00170261066969353,
+   "f1": 0.0010188471419509714,
+   "mAP50": 4.987531172069825e-06,
+   "mAP50_95": 6.443190144727721e-07
+  },
+  "coco_fold0->CTtest@1280": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  },
+  "coco_fold0->GBIFdisjoint@640": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  },
+  "coco_fold0->GBIFdisjoint@1280": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  },
+  "coco_fold1->CTtest@640": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  },
+  "coco_fold1->CTtest@1280": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  },
+  "coco_fold1->GBIFdisjoint@640": {
+   "precision": 9.027715085311908e-05,
+   "recall": 0.003246753246753247,
+   "f1": 0.00017566974088713218,
+   "mAP50": 6.59108884787767e-07,
+   "mAP50_95": 6.59108884787767e-08
+  },
+  "coco_fold1->GBIFdisjoint@1280": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  },
+  "coco_fold2->CTtest@640": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  },
+  "coco_fold2->CTtest@1280": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  },
+  "coco_fold2->GBIFdisjoint@640": {
+   "precision": 0.0012056914525962637,
+   "recall": 0.003246753246753247,
+   "f1": 0.0017583969718350315,
+   "mAP50": 8.92857142857143e-06,
+   "mAP50_95": 4.4334975369458135e-06
+  },
+  "coco_fold2->GBIFdisjoint@1280": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "mAP50": 0.0,
+   "mAP50_95": 0.0
+  }
+ },
+ "sweep": {
+  "ct5000@640|z1": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 317,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.038024401664733885,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 1,
+   "tiles_per_frame": 1,
+   "bee_rel_side_in_tile": 0.01358,
+   "bee_px_in_input": 6.533333333333333
+  },
+  "ct5000@640|z1.5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 727,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.04008575015597873,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 1.5,
+   "tiles_per_frame": 4,
+   "bee_rel_side_in_tile": 0.02037,
+   "bee_px_in_input": 9.8
+  },
+  "ct5000@640|z2": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 836,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.036718287732866076,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 2,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.02716,
+   "bee_px_in_input": 13.066666666666666
+  },
+  "ct5000@640|z2.5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 7.269962075092243e-05,
+   "n_pred_op": 1062,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.03436708980136448,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.00022666212747941486,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 2.5,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.03395,
+   "bee_px_in_input": 16.333333333333332
+  },
+  "ct5000@640|z3": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0008968775599208112,
+   "n_pred_op": 1319,
+   "tp_op": 2,
+   "precision_op": 0.001516300227445034,
+   "recall_op": 0.0025806451612903226,
+   "median_side_rel_op": 0.02593765523698595,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.6160361170768738,
+   "frac_gt_best_iou_ge05": 0.0025806451612903226,
+   "ap50_lo": 0.0002715553180904238,
+   "ap50_hi": 0.0017079163466110227,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 3,
+   "tiles_per_frame": 16,
+   "bee_rel_side_in_tile": 0.04074,
+   "bee_px_in_input": 19.6
+  },
+  "ct5000@640|z3.7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.014621528511149983,
+   "n_pred_op": 1230,
+   "tp_op": 25,
+   "precision_op": 0.02032520325203252,
+   "recall_op": 0.03225806451612903,
+   "median_side_rel_op": 0.01419299840927124,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.9265367388725281,
+   "frac_gt_best_iou_ge05": 0.03225806451612903,
+   "ap50_lo": 0.007831163281019309,
+   "ap50_hi": 0.022084478828619632,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 3.7,
+   "tiles_per_frame": 25,
+   "bee_rel_side_in_tile": 0.050246000000000006,
+   "bee_px_in_input": 24.173333333333336
+  },
+  "ct5000@640|z5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.01822006588221506,
+   "n_pred_op": 1230,
+   "tp_op": 30,
+   "precision_op": 0.024390243902439025,
+   "recall_op": 0.03870967741935484,
+   "median_side_rel_op": 0.013031022416220771,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.9350928068161011,
+   "frac_gt_best_iou_ge05": 0.03870967741935484,
+   "ap50_lo": 0.011103624525576998,
+   "ap50_hi": 0.030616207558046428,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 5,
+   "tiles_per_frame": 49,
+   "bee_rel_side_in_tile": 0.0679,
+   "bee_px_in_input": 32.666666666666664
+  },
+  "ct5000@640|z7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0068588339845924075,
+   "n_pred_op": 1549,
+   "tp_op": 15,
+   "precision_op": 0.009683666881859263,
+   "recall_op": 0.01935483870967742,
+   "median_side_rel_op": 0.008531461159388224,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.7744833827018738,
+   "frac_gt_best_iou_ge05": 0.01935483870967742,
+   "ap50_lo": 0.001534741725830363,
+   "ap50_hi": 0.008000834384844377,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 7,
+   "tiles_per_frame": 81,
+   "bee_rel_side_in_tile": 0.09506,
+   "bee_px_in_input": 45.73333333333334
+  },
+  "ct5000@640|z10": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.00031836596068037854,
+   "n_pred_op": 1232,
+   "tp_op": 1,
+   "precision_op": 0.0008116883116883117,
+   "recall_op": 0.0012903225806451613,
+   "median_side_rel_op": 0.00810542239083184,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.6402556896209717,
+   "frac_gt_best_iou_ge05": 0.0012903225806451613,
+   "ap50_lo": 0.00018354855507222173,
+   "ap50_hi": 0.0005185397428675321,
+   "model": "ct5000",
+   "imgsz": 640,
+   "zoom": 10,
+   "tiles_per_frame": 196,
+   "bee_rel_side_in_tile": 0.1358,
+   "bee_px_in_input": 65.33333333333333
+  },
+  "gbif5000@640|z1": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 11,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.049204280641343856,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 1,
+   "tiles_per_frame": 1,
+   "bee_rel_side_in_tile": 0.01358,
+   "bee_px_in_input": 6.533333333333333
+  },
+  "gbif5000@640|z1.5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 6.606160280575004e-05,
+   "n_pred_op": 72,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.02837692101796468,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.00016716702385009895,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 1.5,
+   "tiles_per_frame": 4,
+   "bee_rel_side_in_tile": 0.02037,
+   "bee_px_in_input": 9.8
+  },
+  "gbif5000@640|z2": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0008042575879027434,
+   "n_pred_op": 57,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.03321001794603136,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.10152920335531235,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.00041314987632157165,
+   "ap50_hi": 0.001372373362671883,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 2,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.02716,
+   "bee_px_in_input": 13.066666666666666
+  },
+  "gbif5000@640|z2.5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0027217480197489303,
+   "n_pred_op": 19,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.03320546415117052,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0019307066011210018,
+   "ap50_hi": 0.0038862533606308022,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 2.5,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.03395,
+   "bee_px_in_input": 16.333333333333332
+  },
+  "gbif5000@640|z3": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.007814864637400325,
+   "n_pred_op": 208,
+   "tp_op": 1,
+   "precision_op": 0.004807692307692308,
+   "recall_op": 0.0012903225806451613,
+   "median_side_rel_op": 0.14716089036729602,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.6330861449241638,
+   "frac_gt_best_iou_ge05": 0.0012903225806451613,
+   "ap50_lo": 0.0049954581913140145,
+   "ap50_hi": 0.011565221809435696,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 3,
+   "tiles_per_frame": 16,
+   "bee_rel_side_in_tile": 0.04074,
+   "bee_px_in_input": 19.6
+  },
+  "gbif5000@640|z3.7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.006615695457872487,
+   "n_pred_op": 735,
+   "tp_op": 10,
+   "precision_op": 0.013605442176870748,
+   "recall_op": 0.012903225806451613,
+   "median_side_rel_op": 0.03743661244710286,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.906450629234314,
+   "frac_gt_best_iou_ge05": 0.012903225806451613,
+   "ap50_lo": 0.00523260791305159,
+   "ap50_hi": 0.008777913997740198,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 3.7,
+   "tiles_per_frame": 25,
+   "bee_rel_side_in_tile": 0.050246000000000006,
+   "bee_px_in_input": 24.173333333333336
+  },
+  "gbif5000@640|z5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.009295993186372047,
+   "n_pred_op": 799,
+   "tp_op": 18,
+   "precision_op": 0.02252816020025031,
+   "recall_op": 0.023225806451612905,
+   "median_side_rel_op": 0.034334143002827965,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.8083284497261047,
+   "frac_gt_best_iou_ge05": 0.023225806451612905,
+   "ap50_lo": 0.006895653573076116,
+   "ap50_hi": 0.012877321572010882,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 5,
+   "tiles_per_frame": 49,
+   "bee_rel_side_in_tile": 0.0679,
+   "bee_px_in_input": 32.666666666666664
+  },
+  "gbif5000@640|z7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.04951067243084131,
+   "n_pred_op": 3126,
+   "tp_op": 210,
+   "precision_op": 0.0671785028790787,
+   "recall_op": 0.2709677419354839,
+   "median_side_rel_op": 0.02131550775633918,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.9262363314628601,
+   "frac_gt_best_iou_ge05": 0.2709677419354839,
+   "ap50_lo": 0.03328438669988603,
+   "ap50_hi": 0.07458877887094163,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 7,
+   "tiles_per_frame": 81,
+   "bee_rel_side_in_tile": 0.09506,
+   "bee_px_in_input": 45.73333333333334
+  },
+  "gbif5000@640|z10": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.12324585263696111,
+   "n_pred_op": 3324,
+   "tp_op": 328,
+   "precision_op": 0.098676293622142,
+   "recall_op": 0.4232258064516129,
+   "median_side_rel_op": 0.018430929713779028,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.9179369211196899,
+   "frac_gt_best_iou_ge05": 0.4232258064516129,
+   "ap50_lo": 0.09644943279201659,
+   "ap50_hi": 0.1595281807058899,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 10,
+   "tiles_per_frame": 196,
+   "bee_rel_side_in_tile": 0.1358,
+   "bee_px_in_input": 65.33333333333333
+  },
+  "ct5000@1280|z1": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 759,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.03762818177541097,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct5000",
+   "imgsz": 1280,
+   "zoom": 1,
+   "tiles_per_frame": 1,
+   "bee_rel_side_in_tile": 0.01358,
+   "bee_px_in_input": 13.066666666666666
+  },
+  "ct5000@1280|z1.5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 1193,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.03187454541524251,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.41618385910987854,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct5000",
+   "imgsz": 1280,
+   "zoom": 1.5,
+   "tiles_per_frame": 4,
+   "bee_rel_side_in_tile": 0.02037,
+   "bee_px_in_input": 19.6
+  },
+  "ct5000@1280|z1.85": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.001125754398101512,
+   "n_pred_op": 861,
+   "tp_op": 3,
+   "precision_op": 0.003484320557491289,
+   "recall_op": 0.003870967741935484,
+   "median_side_rel_op": 0.02333944903479682,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.5875481963157654,
+   "frac_gt_best_iou_ge05": 0.003870967741935484,
+   "ap50_lo": 0.0005336364654585199,
+   "ap50_hi": 0.001836670796765942,
+   "model": "ct5000",
+   "imgsz": 1280,
+   "zoom": 1.85,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.025123000000000003,
+   "bee_px_in_input": 24.173333333333336
+  },
+  "ct5000@1280|z2.5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.008958641614731925,
+   "n_pred_op": 590,
+   "tp_op": 15,
+   "precision_op": 0.025423728813559324,
+   "recall_op": 0.01935483870967742,
+   "median_side_rel_op": 0.01815788878334893,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.8157680034637451,
+   "frac_gt_best_iou_ge05": 0.01935483870967742,
+   "ap50_lo": 0.0064522737113966245,
+   "ap50_hi": 0.01366371016418466,
+   "model": "ct5000",
+   "imgsz": 1280,
+   "zoom": 2.5,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.03395,
+   "bee_px_in_input": 32.666666666666664
+  },
+  "ct5000@1280|z3.7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.005368414221330114,
+   "n_pred_op": 1473,
+   "tp_op": 10,
+   "precision_op": 0.006788866259334691,
+   "recall_op": 0.012903225806451613,
+   "median_side_rel_op": 0.011254215240478515,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.8092854619026184,
+   "frac_gt_best_iou_ge05": 0.012903225806451613,
+   "ap50_lo": 0.004237572822104179,
+   "ap50_hi": 0.006841259381507436,
+   "model": "ct5000",
+   "imgsz": 1280,
+   "zoom": 3.7,
+   "tiles_per_frame": 25,
+   "bee_rel_side_in_tile": 0.050246000000000006,
+   "bee_px_in_input": 48.34666666666667
+  },
+  "ct5000@1280|z5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0011365415781354553,
+   "n_pred_op": 1113,
+   "tp_op": 1,
+   "precision_op": 0.0008984725965858042,
+   "recall_op": 0.0012903225806451613,
+   "median_side_rel_op": 0.009322773085700141,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.5371906161308289,
+   "frac_gt_best_iou_ge05": 0.0012903225806451613,
+   "ap50_lo": 0.0008195335765922146,
+   "ap50_hi": 0.0015763442730612526,
+   "model": "ct5000",
+   "imgsz": 1280,
+   "zoom": 5,
+   "tiles_per_frame": 49,
+   "bee_rel_side_in_tile": 0.0679,
+   "bee_px_in_input": 65.33333333333333
+  },
+  "ct500@640|z1": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 540,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.03571981853908962,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct500",
+   "imgsz": 640,
+   "zoom": 1,
+   "tiles_per_frame": 1,
+   "bee_rel_side_in_tile": 0.01358,
+   "bee_px_in_input": 6.533333333333333
+  },
+  "ct500@640|z2": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 1162,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.030980066458384196,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct500",
+   "imgsz": 640,
+   "zoom": 2,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.02716,
+   "bee_px_in_input": 13.066666666666666
+  },
+  "ct500@640|z3.7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0024335958631626947,
+   "n_pred_op": 964,
+   "tp_op": 7,
+   "precision_op": 0.007261410788381743,
+   "recall_op": 0.00903225806451613,
+   "median_side_rel_op": 0.018061114019817776,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.6716856956481934,
+   "frac_gt_best_iou_ge05": 0.00903225806451613,
+   "ap50_lo": 0.0015789983443046294,
+   "ap50_hi": 0.0037516629899630757,
+   "model": "ct500",
+   "imgsz": 640,
+   "zoom": 3.7,
+   "tiles_per_frame": 25,
+   "bee_rel_side_in_tile": 0.050246000000000006,
+   "bee_px_in_input": 24.173333333333336
+  },
+  "ct500@640|z7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.021634176278901036,
+   "n_pred_op": 1234,
+   "tp_op": 83,
+   "precision_op": 0.06726094003241491,
+   "recall_op": 0.10709677419354839,
+   "median_side_rel_op": 0.010268528593911065,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.7721591591835022,
+   "frac_gt_best_iou_ge05": 0.10709677419354839,
+   "ap50_lo": 0.015979036508205233,
+   "ap50_hi": 0.02987810201047865,
+   "model": "ct500",
+   "imgsz": 640,
+   "zoom": 7,
+   "tiles_per_frame": 81,
+   "bee_rel_side_in_tile": 0.09506,
+   "bee_px_in_input": 45.73333333333334
+  },
+  "ct2000@640|z1": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 683,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.033562445640563966,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.10996844619512558,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct2000",
+   "imgsz": 640,
+   "zoom": 1,
+   "tiles_per_frame": 1,
+   "bee_rel_side_in_tile": 0.01358,
+   "bee_px_in_input": 6.533333333333333
+  },
+  "ct2000@640|z2": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 1614,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.028343725204467773,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "ct2000",
+   "imgsz": 640,
+   "zoom": 2,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.02716,
+   "bee_px_in_input": 13.066666666666666
+  },
+  "ct2000@640|z3.7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.006385163731484513,
+   "n_pred_op": 1131,
+   "tp_op": 14,
+   "precision_op": 0.01237842617152962,
+   "recall_op": 0.01806451612903226,
+   "median_side_rel_op": 0.019348470369974773,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.8272039294242859,
+   "frac_gt_best_iou_ge05": 0.01806451612903226,
+   "ap50_lo": 0.004479394148200802,
+   "ap50_hi": 0.009195994671219943,
+   "model": "ct2000",
+   "imgsz": 640,
+   "zoom": 3.7,
+   "tiles_per_frame": 25,
+   "bee_rel_side_in_tile": 0.050246000000000006,
+   "bee_px_in_input": 24.173333333333336
+  },
+  "ct2000@640|z7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.008080481836774626,
+   "n_pred_op": 972,
+   "tp_op": 13,
+   "precision_op": 0.013374485596707819,
+   "recall_op": 0.016774193548387096,
+   "median_side_rel_op": 0.009277223878436618,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.7009944915771484,
+   "frac_gt_best_iou_ge05": 0.016774193548387096,
+   "ap50_lo": 0.005936332412860588,
+   "ap50_hi": 0.011435847960734406,
+   "model": "ct2000",
+   "imgsz": 640,
+   "zoom": 7,
+   "tiles_per_frame": 81,
+   "bee_rel_side_in_tile": 0.09506,
+   "bee_px_in_input": 45.73333333333334
+  },
+  "gbif500@640|z1": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 0,
+   "tp_op": 0,
+   "precision_op": NaN,
+   "recall_op": 0.0,
+   "median_side_rel_op": NaN,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "gbif500",
+   "imgsz": 640,
+   "zoom": 1,
+   "tiles_per_frame": 1,
+   "bee_rel_side_in_tile": 0.01358,
+   "bee_px_in_input": 6.533333333333333
+  },
+  "gbif500@640|z2": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 7.252720320450656e-05,
+   "n_pred_op": 318,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.02915474573771159,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.00016421973324184992,
+   "model": "gbif500",
+   "imgsz": 640,
+   "zoom": 2,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.02716,
+   "bee_px_in_input": 13.066666666666666
+  },
+  "gbif500@640|z3.7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0012755595975050293,
+   "n_pred_op": 247,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.04154433144463433,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0009566564557125964,
+   "ap50_hi": 0.0018093914411860383,
+   "model": "gbif500",
+   "imgsz": 640,
+   "zoom": 3.7,
+   "tiles_per_frame": 25,
+   "bee_rel_side_in_tile": 0.050246000000000006,
+   "bee_px_in_input": 24.173333333333336
+  },
+  "gbif500@640|z7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0004267250342409228,
+   "n_pred_op": 1325,
+   "tp_op": 1,
+   "precision_op": 0.0007547169811320754,
+   "recall_op": 0.0012903225806451613,
+   "median_side_rel_op": 0.046395365397135416,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.911649227142334,
+   "frac_gt_best_iou_ge05": 0.0012903225806451613,
+   "ap50_lo": 0.0002518306427095084,
+   "ap50_hi": 0.000663914395555747,
+   "model": "gbif500",
+   "imgsz": 640,
+   "zoom": 7,
+   "tiles_per_frame": 81,
+   "bee_rel_side_in_tile": 0.09506,
+   "bee_px_in_input": 45.73333333333334
+  },
+  "gbif2000@640|z1": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0,
+   "n_pred_op": 90,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.0484164900249905,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.0,
+   "ap50_hi": 0.0,
+   "model": "gbif2000",
+   "imgsz": 640,
+   "zoom": 1,
+   "tiles_per_frame": 1,
+   "bee_rel_side_in_tile": 0.01358,
+   "bee_px_in_input": 6.533333333333333
+  },
+  "gbif2000@640|z2": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.0006913637503187319,
+   "n_pred_op": 235,
+   "tp_op": 0,
+   "precision_op": 0.0,
+   "recall_op": 0.0,
+   "median_side_rel_op": 0.028645833333333332,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.0,
+   "frac_gt_best_iou_ge05": 0.0,
+   "ap50_lo": 0.00018296677044917455,
+   "ap50_hi": 0.00138226970923112,
+   "model": "gbif2000",
+   "imgsz": 640,
+   "zoom": 2,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.02716,
+   "bee_px_in_input": 13.066666666666666
+  },
+  "gbif2000@640|z3.7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.011294337500311792,
+   "n_pred_op": 460,
+   "tp_op": 10,
+   "precision_op": 0.021739130434782608,
+   "recall_op": 0.012903225806451613,
+   "median_side_rel_op": 0.029776178465949165,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.8585504293441772,
+   "frac_gt_best_iou_ge05": 0.012903225806451613,
+   "ap50_lo": 0.008382345762744192,
+   "ap50_hi": 0.016253237221001474,
+   "model": "gbif2000",
+   "imgsz": 640,
+   "zoom": 3.7,
+   "tiles_per_frame": 25,
+   "bee_rel_side_in_tile": 0.050246000000000006,
+   "bee_px_in_input": 24.173333333333336
+  },
+  "gbif2000@640|z7": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.02789687774496991,
+   "n_pred_op": 5891,
+   "tp_op": 203,
+   "precision_op": 0.0344593447631981,
+   "recall_op": 0.26193548387096777,
+   "median_side_rel_op": 0.01978975666893853,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.9099578857421875,
+   "frac_gt_best_iou_ge05": 0.26193548387096777,
+   "ap50_lo": 0.018108578453756914,
+   "ap50_hi": 0.0366754450813278,
+   "model": "gbif2000",
+   "imgsz": 640,
+   "zoom": 7,
+   "tiles_per_frame": 81,
+   "bee_rel_side_in_tile": 0.09506,
+   "bee_px_in_input": 45.73333333333334
+  },
+  "gbif5000@640_subset|z7": {
+   "n_frames": 40,
+   "n_gt": 88,
+   "ap50": 0.04125815901750228,
+   "n_pred_op": 388,
+   "tp_op": 22,
+   "precision_op": 0.05670103092783505,
+   "recall_op": 0.25,
+   "median_side_rel_op": 0.021322927872339886,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.8293381929397583,
+   "frac_gt_best_iou_ge05": 0.25,
+   "ap50_lo": 0.025247234951732603,
+   "ap50_hi": 0.06910047127122795,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 7,
+   "tiles_per_frame": 81,
+   "bee_rel_side_in_tile": 0.09506,
+   "bee_px_in_input": 45.73333333333334
+  },
+  "gbif5000@640_subset|z10": {
+   "n_frames": 40,
+   "n_gt": 88,
+   "ap50": 0.12790167951472803,
+   "n_pred_op": 407,
+   "tp_op": 36,
+   "precision_op": 0.08845208845208845,
+   "recall_op": 0.4090909090909091,
+   "median_side_rel_op": 0.019196675883399114,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.8419484496116638,
+   "frac_gt_best_iou_ge05": 0.4090909090909091,
+   "ap50_lo": 0.08428217443529984,
+   "ap50_hi": 0.248819869282314,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 10,
+   "tiles_per_frame": 196,
+   "bee_rel_side_in_tile": 0.1358,
+   "bee_px_in_input": 65.33333333333333
+  },
+  "gbif5000@640_subset|z14": {
+   "n_frames": 40,
+   "n_gt": 88,
+   "ap50": 0.09409380065814738,
+   "n_pred_op": 608,
+   "tp_op": 34,
+   "precision_op": 0.05592105263157895,
+   "recall_op": 0.38636363636363635,
+   "median_side_rel_op": 0.015943206018871732,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.8718031644821167,
+   "frac_gt_best_iou_ge05": 0.38636363636363635,
+   "ap50_lo": 0.04206554146057029,
+   "ap50_hi": 0.15720479255324787,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 14,
+   "tiles_per_frame": 1156,
+   "bee_rel_side_in_tile": 0.19012,
+   "bee_px_in_input": 91.46666666666668
+  },
+  "gbif5000@640_subset|z24": {
+   "n_frames": 40,
+   "n_gt": 88,
+   "ap50": 0.0014528315057338718,
+   "n_pred_op": 181,
+   "tp_op": 2,
+   "precision_op": 0.011049723756906077,
+   "recall_op": 0.022727272727272728,
+   "median_side_rel_op": 0.030959036615159776,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.691975474357605,
+   "frac_gt_best_iou_ge05": 0.022727272727272728,
+   "ap50_lo": 0.0008037302755791132,
+   "ap50_hi": 0.002528330723208083,
+   "model": "gbif5000",
+   "imgsz": 640,
+   "zoom": 24,
+   "tiles_per_frame": 3481,
+   "bee_rel_side_in_tile": 0.32592,
+   "bee_px_in_input": 156.8
+  },
+  "infold@1280|z1": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.8709089942368118,
+   "n_pred_op": 891,
+   "tp_op": 680,
+   "precision_op": 0.7631874298540965,
+   "recall_op": 0.8774193548387097,
+   "median_side_rel_op": 0.013380450672573513,
+   "best_iou_median": 0.7207739949226379,
+   "best_iou_max": 0.9462663531303406,
+   "frac_gt_best_iou_ge05": 0.8774193548387097,
+   "ap50_lo": 0.8345201879933994,
+   "ap50_hi": 0.9036577036763837,
+   "model": "coco_infold",
+   "imgsz": 1280,
+   "zoom": 1,
+   "tiles_per_frame": 1,
+   "bee_rel_side_in_tile": 0.01358,
+   "bee_px_in_input": 13.066666666666666
+  },
+  "infold@1280|z1.5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.847837635455496,
+   "n_pred_op": 899,
+   "tp_op": 687,
+   "precision_op": 0.764182424916574,
+   "recall_op": 0.8864516129032258,
+   "median_side_rel_op": 0.012791970041063097,
+   "best_iou_median": 0.7268314957618713,
+   "best_iou_max": 0.9712054133415222,
+   "frac_gt_best_iou_ge05": 0.8864516129032258,
+   "ap50_lo": 0.8185875850277068,
+   "ap50_hi": 0.8781697009714554,
+   "model": "coco_infold",
+   "imgsz": 1280,
+   "zoom": 1.5,
+   "tiles_per_frame": 4,
+   "bee_rel_side_in_tile": 0.02037,
+   "bee_px_in_input": 19.6
+  },
+  "infold@1280|z2": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.7746044196210777,
+   "n_pred_op": 1042,
+   "tp_op": 662,
+   "precision_op": 0.6353166986564299,
+   "recall_op": 0.8541935483870968,
+   "median_side_rel_op": 0.012004126442803277,
+   "best_iou_median": 0.7058265209197998,
+   "best_iou_max": 0.9636096954345703,
+   "frac_gt_best_iou_ge05": 0.8541935483870968,
+   "ap50_lo": 0.7397614252637535,
+   "ap50_hi": 0.8109823932887029,
+   "model": "coco_infold",
+   "imgsz": 1280,
+   "zoom": 2,
+   "tiles_per_frame": 9,
+   "bee_rel_side_in_tile": 0.02716,
+   "bee_px_in_input": 26.133333333333333
+  },
+  "infold@1280|z3": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.13797287250334772,
+   "n_pred_op": 1911,
+   "tp_op": 306,
+   "precision_op": 0.16012558869701726,
+   "recall_op": 0.39483870967741935,
+   "median_side_rel_op": 0.008111559682422213,
+   "best_iou_median": 0.4224739968776703,
+   "best_iou_max": 0.9185617566108704,
+   "frac_gt_best_iou_ge05": 0.39483870967741935,
+   "ap50_lo": 0.11039299771114339,
+   "ap50_hi": 0.17532189795175274,
+   "model": "coco_infold",
+   "imgsz": 1280,
+   "zoom": 3,
+   "tiles_per_frame": 16,
+   "bee_rel_side_in_tile": 0.04074,
+   "bee_px_in_input": 39.2
+  },
+  "infold@1280|z5": {
+   "n_frames": 333,
+   "n_gt": 775,
+   "ap50": 0.00020443792238688152,
+   "n_pred_op": 5537,
+   "tp_op": 6,
+   "precision_op": 0.001083619288423334,
+   "recall_op": 0.007741935483870968,
+   "median_side_rel_op": 0.004817595415645175,
+   "best_iou_median": 0.0,
+   "best_iou_max": 0.6223447322845459,
+   "frac_gt_best_iou_ge05": 0.007741935483870968,
+   "ap50_lo": 0.00013130000628143668,
+   "ap50_hi": 0.00032975027807559236,
+   "model": "coco_infold",
+   "imgsz": 1280,
+   "zoom": 5,
+   "tiles_per_frame": 49,
+   "bee_rel_side_in_tile": 0.0679,
+   "bee_px_in_input": 65.33333333333333
+  }
+ },
+ "refit": {
+  "coco_fold0": {
+   "final": {
+    "precision": 0.8176070444165136,
+    "recall": 0.8642533936651584,
+    "f1": 0.8402833514860262,
+    "mAP50": 0.906059602255933,
+    "mAP50_95": 0.40324066257176233
+   },
+   "final_at640": {
+    "precision": 0.7962148687306361,
+    "recall": 0.6561085972850679,
+    "f1": 0.7194036767766765,
+    "mAP50": 0.7152323817082942,
+    "mAP50_95": 0.21068218076879472
+   }
+  },
+  "coco_fold1": {
+   "final": {
+    "precision": 0.7783926438250885,
+    "recall": 0.821791438564572,
+    "f1": 0.7995035290962639,
+    "mAP50": 0.850777096338017,
+    "mAP50_95": 0.37544345186869055
+   },
+   "final_at640": {
+    "precision": 0.7737082520136348,
+    "recall": 0.6754716981132075,
+    "f1": 0.7212603607800512,
+    "mAP50": 0.7196700824415379,
+    "mAP50_95": 0.24809061200144758
+   }
+  },
+  "coco_fold2": {
+   "final": {
+    "precision": 0.7747463795401849,
+    "recall": 0.8806897647498565,
+    "f1": 0.8243280287089151,
+    "mAP50": 0.8673567166333029,
+    "mAP50_95": 0.3769497602126479
+   },
+   "final_at640": {
+    "precision": 0.7184766765974542,
+    "recall": 0.643598615916955,
+    "f1": 0.6789794913218331,
+    "mAP50": 0.6331365552618489,
+    "mAP50_95": 0.1965309469754035
+   }
+  },
+  "gbif500_fold0": {
+   "final": {
+    "precision": 0.7601416326008616,
+    "recall": 0.8597285067873304,
+    "f1": 0.8068738534678442,
+    "mAP50": 0.8877996977838127,
+    "mAP50_95": 0.4096362540565847
+   },
+   "final_at640": {
+    "precision": 0.7101792038392822,
+    "recall": 0.583710407239819,
+    "f1": 0.640764078692236,
+    "mAP50": 0.5902844105559363,
+    "mAP50_95": 0.17981095022537844
+   }
+  },
+  "gbif500_fold1": {
+   "final": {
+    "precision": 0.7586746055024485,
+    "recall": 0.8660262833345593,
+    "f1": 0.8088038276804475,
+    "mAP50": 0.8448933224762536,
+    "mAP50_95": 0.3627220147643186
+   },
+   "final_at640": {
+    "precision": 0.7796239109744236,
+    "recall": 0.6792452830188679,
+    "f1": 0.7259812822677701,
+    "mAP50": 0.6963928021413955,
+    "mAP50_95": 0.2253519888510498
+   }
+  },
+  "gbif500_fold2": {
+   "final": {
+    "precision": 0.7880156210439814,
+    "recall": 0.8131487889273357,
+    "f1": 0.800384949749432,
+    "mAP50": 0.83668482442881,
+    "mAP50_95": 0.37141727605057934
+   },
+   "final_at640": {
+    "precision": 0.6749002911629878,
+    "recall": 0.5818507037846977,
+    "f1": 0.6249308112368407,
+    "mAP50": 0.5741176979738776,
+    "mAP50_95": 0.1654192045539026
+   }
+  },
+  "gbif2000_fold0": {
+   "final": {
+    "precision": 0.823859477021758,
+    "recall": 0.8889005356552082,
+    "f1": 0.8551450582789625,
+    "mAP50": 0.889512935190832,
+    "mAP50_95": 0.4126050984264994
+   },
+   "final_at640": {
+    "precision": 0.6722114243040443,
+    "recall": 0.579185520361991,
+    "f1": 0.622240808942867,
+    "mAP50": 0.5498995684749104,
+    "mAP50_95": 0.1534773577276735
+   }
+  },
+  "gbif2000_fold1": {
+   "final": {
+    "precision": 0.7895503941899965,
+    "recall": 0.8490566037735849,
+    "f1": 0.818223011414178,
+    "mAP50": 0.8571433712055766,
+    "mAP50_95": 0.36161663007005806
+   },
+   "final_at640": {
+    "precision": 0.742305420348767,
+    "recall": 0.6522051448033299,
+    "f1": 0.6943445625513213,
+    "mAP50": 0.6573608885009719,
+    "mAP50_95": 0.22196605581110762
+   }
+  },
+  "gbif2000_fold2": {
+   "final": {
+    "precision": 0.7699345258183865,
+    "recall": 0.868491949732782,
+    "f1": 0.816248940642454,
+    "mAP50": 0.8433003462505531,
+    "mAP50_95": 0.36656624980197827
+   },
+   "final_at640": {
+    "precision": 0.7300631150712573,
+    "recall": 0.6020761245674741,
+    "f1": 0.6599213624710356,
+    "mAP50": 0.6088141995172243,
+    "mAP50_95": 0.1770422685242727
+   }
+  },
+  "gbif5000_fold0": {
+   "final": {
+    "precision": 0.8293334899051966,
+    "recall": 0.8823529411764706,
+    "f1": 0.8550220773457582,
+    "mAP50": 0.908898882916937,
+    "mAP50_95": 0.4243478562229944
+   },
+   "final_at640": {
+    "precision": 0.7772519371034688,
+    "recall": 0.5701357466063348,
+    "f1": 0.6577752176591042,
+    "mAP50": 0.6232270757996798,
+    "mAP50_95": 0.18096032323956615
+   }
+  },
+  "gbif5000_fold1": {
+   "final": {
+    "precision": 0.8226901593085029,
+    "recall": 0.8679245283018868,
+    "f1": 0.8447021946386744,
+    "mAP50": 0.8720582161921506,
+    "mAP50_95": 0.38189054307304293
+   },
+   "final_at640": {
+    "precision": 0.6793634900315061,
+    "recall": 0.6476356240600373,
+    "f1": 0.6631202585713365,
+    "mAP50": 0.6244942858257745,
+    "mAP50_95": 0.19106598274386485
+   }
+  },
+  "gbif5000_fold2": {
+   "final": {
+    "precision": 0.7644884757440811,
+    "recall": 0.8685121107266436,
+    "f1": 0.8131870927611445,
+    "mAP50": 0.8386824789207366,
+    "mAP50_95": 0.3640972476423646
+   },
+   "final_at640": {
+    "precision": 0.6843139614201441,
+    "recall": 0.5475543357078428,
+    "f1": 0.6083427545535405,
+    "mAP50": 0.5382582223806249,
+    "mAP50_95": 0.1400316223234816
+   }
+  },
+  "ct500_fold0": {
+   "final": {
+    "precision": 0.8714094504651254,
+    "recall": 0.8144796380090498,
+    "f1": 0.8419833293005768,
+    "mAP50": 0.9164456057157151,
+    "mAP50_95": 0.4072728231418122
+   },
+   "final_at640": {
+    "precision": 0.7970217625643226,
+    "recall": 0.6199095022624435,
+    "f1": 0.6973963753760363,
+    "mAP50": 0.6217329532683993,
+    "mAP50_95": 0.17760516571566742
+   }
+  },
+  "ct500_fold1": {
+   "final": {
+    "precision": 0.829101308941183,
+    "recall": 0.8641509433962264,
+    "f1": 0.8462633695641479,
+    "mAP50": 0.8784516609319188,
+    "mAP50_95": 0.38039325549044606
+   },
+   "final_at640": {
+    "precision": 0.7706481416823694,
+    "recall": 0.660377358490566,
+    "f1": 0.7112641725369186,
+    "mAP50": 0.6829422569789054,
+    "mAP50_95": 0.2112902485291673
+   }
+  },
+  "ct500_fold2": {
+   "final": {
+    "precision": 0.8024622157003906,
+    "recall": 0.8433909811184754,
+    "f1": 0.8224176940181159,
+    "mAP50": 0.8610031845622791,
+    "mAP50_95": 0.366616225467807
+   },
+   "final_at640": {
+    "precision": 0.6994413356403111,
+    "recall": 0.6747404844290658,
+    "f1": 0.6868689117366286,
+    "mAP50": 0.6475621641397342,
+    "mAP50_95": 0.18906274382899257
+   }
+  },
+  "ct2000_fold0": {
+   "final": {
+    "precision": 0.8144694615658986,
+    "recall": 0.8733031674208145,
+    "f1": 0.8428608786955557,
+    "mAP50": 0.9094726873554452,
+    "mAP50_95": 0.42468751661092713
+   },
+   "final_at640": {
+    "precision": 0.7525287216985681,
+    "recall": 0.660461953039007,
+    "f1": 0.7034959227077576,
+    "mAP50": 0.7061806792836589,
+    "mAP50_95": 0.20968635313960265
+   }
+  },
+  "ct2000_fold1": {
+   "final": {
+    "precision": 0.8479234403493779,
+    "recall": 0.8416056896545288,
+    "f1": 0.8447527528428336,
+    "mAP50": 0.9015529813710854,
+    "mAP50_95": 0.3953213177867234
+   },
+   "final_at640": {
+    "precision": 0.8197109005181616,
+    "recall": 0.61766182815753,
+    "f1": 0.7044855148200577,
+    "mAP50": 0.6815273236779946,
+    "mAP50_95": 0.20917911859616956
+   }
+  },
+  "ct2000_fold2": {
+   "final": {
+    "precision": 0.8196977252173335,
+    "recall": 0.8494736608993219,
+    "f1": 0.8343201102808153,
+    "mAP50": 0.8518177089016177,
+    "mAP50_95": 0.3765647306696001
+   },
+   "final_at640": {
+    "precision": 0.7139074284909723,
+    "recall": 0.5916955017301038,
+    "f1": 0.6470815962679969,
+    "mAP50": 0.6331954824801962,
+    "mAP50_95": 0.19361661026570756
+   }
+  },
+  "ct5000_fold0": {
+   "final": {
+    "precision": 0.8254649804791421,
+    "recall": 0.8733031674208145,
+    "f1": 0.8487104999449867,
+    "mAP50": 0.9156617049188747,
+    "mAP50_95": 0.40636852469050727
+   },
+   "final_at640": {
+    "precision": 0.7664417943909188,
+    "recall": 0.727595378688468,
+    "f1": 0.7465135642952276,
+    "mAP50": 0.7038162920509787,
+    "mAP50_95": 0.23368489042595994
+   }
+  },
+  "ct5000_fold1": {
+   "final": {
+    "precision": 0.8417971136314951,
+    "recall": 0.8433314052007268,
+    "f1": 0.8425635609380444,
+    "mAP50": 0.8896852600881197,
+    "mAP50_95": 0.3828219681936606
+   },
+   "final_at640": {
+    "precision": 0.7846657218529097,
+    "recall": 0.6226415094339622,
+    "f1": 0.6943266382690729,
+    "mAP50": 0.6581408843770999,
+    "mAP50_95": 0.2238504941353719
+   }
+  },
+  "ct5000_fold2": {
+   "final": {
+    "precision": 0.803958677561948,
+    "recall": 0.8719723183391004,
+    "f1": 0.8365854126895328,
+    "mAP50": 0.8620120094457993,
+    "mAP50_95": 0.3676585912359841
+   },
+   "final_at640": {
+    "precision": 0.7725036386634788,
+    "recall": 0.6332179930795848,
+    "f1": 0.6959602707608807,
+    "mAP50": 0.708404861624979,
+    "mAP50_95": 0.2094408557346093
+   }
+  }
+ },
+ "conf_infold": {
+  "median_max": 0.7001953125,
+  "frac_ge_025": 0.975975975975976,
+  "frac_ge_050": 0.8738738738738738,
+  "mean_dets": 13.294294357299805
+ },
+ "examples": {
+  "n_frames": 6,
+  "n_confident_ct5000": 453
+ }
+}

@@ -1,0 +1,85 @@
+estimate,config,fold,mAP50
+"fixed 60 epochs, final weights (primary)",coco,0,0.906059602255933
+"fixed 60 epochs, final weights (primary)",coco,1,0.850777096338017
+"fixed 60 epochs, final weights (primary)",coco,2,0.8673567166333029
+"fixed 60 epochs, final weights (primary)",gbif500,0,0.8877996977838127
+"fixed 60 epochs, final weights (primary)",gbif500,1,0.8448933224762536
+"fixed 60 epochs, final weights (primary)",gbif500,2,0.83668482442881
+"fixed 60 epochs, final weights (primary)",gbif2000,0,0.889512935190832
+"fixed 60 epochs, final weights (primary)",gbif2000,1,0.8571433712055766
+"fixed 60 epochs, final weights (primary)",gbif2000,2,0.8433003462505531
+"fixed 60 epochs, final weights (primary)",gbif5000,0,0.908898882916937
+"fixed 60 epochs, final weights (primary)",gbif5000,1,0.8720582161921506
+"fixed 60 epochs, final weights (primary)",gbif5000,2,0.8386824789207366
+"fixed 60 epochs, final weights (primary)",ct500,0,0.9164456057157151
+"fixed 60 epochs, final weights (primary)",ct500,1,0.8784516609319188
+"fixed 60 epochs, final weights (primary)",ct500,2,0.8610031845622791
+"fixed 60 epochs, final weights (primary)",ct2000,0,0.9094726873554452
+"fixed 60 epochs, final weights (primary)",ct2000,1,0.9015529813710854
+"fixed 60 epochs, final weights (primary)",ct2000,2,0.8518177089016177
+"fixed 60 epochs, final weights (primary)",ct5000,0,0.9156617049188747
+"fixed 60 epochs, final weights (primary)",ct5000,1,0.8896852600881197
+"fixed 60 epochs, final weights (primary)",ct5000,2,0.8620120094457993
+"after 30 epochs, training run 2",coco,0,0.87812
+"after 30 epochs, training run 2",coco,1,0.86226
+"after 30 epochs, training run 2",coco,2,0.87043
+"after 30 epochs, training run 2",gbif500,0,0.87304
+"after 30 epochs, training run 2",gbif500,1,0.83719
+"after 30 epochs, training run 2",gbif500,2,0.84204
+"after 30 epochs, training run 2",gbif2000,0,0.89331
+"after 30 epochs, training run 2",gbif2000,1,0.83219
+"after 30 epochs, training run 2",gbif2000,2,0.84818
+"after 30 epochs, training run 2",gbif5000,0,0.91531
+"after 30 epochs, training run 2",gbif5000,1,0.86906
+"after 30 epochs, training run 2",gbif5000,2,0.8441
+"after 30 epochs, training run 2",ct500,0,0.89724
+"after 30 epochs, training run 2",ct500,1,0.83709
+"after 30 epochs, training run 2",ct500,2,0.85177
+"after 30 epochs, training run 2",ct2000,0,0.90717
+"after 30 epochs, training run 2",ct2000,1,0.90376
+"after 30 epochs, training run 2",ct2000,2,0.84179
+"after 30 epochs, training run 2",ct5000,0,0.93223
+"after 30 epochs, training run 2",ct5000,1,0.8914
+"after 30 epochs, training run 2",ct5000,2,0.88526
+"after 30 epochs, training run 1",coco,0,0.87315
+"after 30 epochs, training run 1",coco,1,0.85378
+"after 30 epochs, training run 1",coco,2,0.84502
+"after 30 epochs, training run 1",gbif500,0,0.8329
+"after 30 epochs, training run 1",gbif500,1,0.8604
+"after 30 epochs, training run 1",gbif500,2,0.82455
+"after 30 epochs, training run 1",gbif2000,0,0.88771
+"after 30 epochs, training run 1",gbif2000,1,0.84531
+"after 30 epochs, training run 1",gbif2000,2,0.80819
+"after 30 epochs, training run 1",gbif5000,0,0.91323
+"after 30 epochs, training run 1",gbif5000,1,0.87013
+"after 30 epochs, training run 1",gbif5000,2,0.85011
+"after 30 epochs, training run 1",ct500,0,0.88022
+"after 30 epochs, training run 1",ct500,1,0.84032
+"after 30 epochs, training run 1",ct500,2,0.84976
+"after 30 epochs, training run 1",ct2000,0,0.91588
+"after 30 epochs, training run 1",ct2000,1,0.86567
+"after 30 epochs, training run 1",ct2000,2,0.86624
+"after 30 epochs, training run 1",ct5000,0,0.92283
+"after 30 epochs, training run 1",ct5000,1,0.8797
+"after 30 epochs, training run 1",ct5000,2,0.8652
+"best epoch selected on held-out fold, training run 1",coco,0,0.909851027672976
+"best epoch selected on held-out fold, training run 1",coco,1,0.8671835906530749
+"best epoch selected on held-out fold, training run 1",coco,2,0.8803411779876994
+"best epoch selected on held-out fold, training run 1",gbif500,0,0.8981330438652712
+"best epoch selected on held-out fold, training run 1",gbif500,1,0.8617316912542592
+"best epoch selected on held-out fold, training run 1",gbif500,2,0.8307849242034403
+"best epoch selected on held-out fold, training run 1",gbif2000,0,0.9097365158713017
+"best epoch selected on held-out fold, training run 1",gbif2000,1,0.8620097155578829
+"best epoch selected on held-out fold, training run 1",gbif2000,2,0.871510692704075
+"best epoch selected on held-out fold, training run 1",gbif5000,0,0.9368770941630336
+"best epoch selected on held-out fold, training run 1",gbif5000,1,0.8805730248411627
+"best epoch selected on held-out fold, training run 1",gbif5000,2,0.8499208757384833
+"best epoch selected on held-out fold, training run 1",ct500,0,0.8970880529470011
+"best epoch selected on held-out fold, training run 1",ct500,1,0.8762882799088119
+"best epoch selected on held-out fold, training run 1",ct500,2,0.8497681814829743
+"best epoch selected on held-out fold, training run 1",ct2000,0,0.9118644283244228
+"best epoch selected on held-out fold, training run 1",ct2000,1,0.8974152922676311
+"best epoch selected on held-out fold, training run 1",ct2000,2,0.8590478389507027
+"best epoch selected on held-out fold, training run 1",ct5000,0,0.9269817289759197
+"best epoch selected on held-out fold, training run 1",ct5000,1,0.8902635819934801
+"best epoch selected on held-out fold, training run 1",ct5000,2,0.8764901260035705

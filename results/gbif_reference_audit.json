@@ -1,0 +1,20 @@
+{
+  "gbif_root": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees",
+  "reference_folder": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees",
+  "pool_size": 98731,
+  "pool_size_expected": 98731,
+  "reference_folder_size": 98731,
+  "pool_identical_to_reference_folder": true,
+  "N500_reference_in_train": 225,
+  "N500_reference_in_val": 75,
+  "N2000_reference_in_train": 0,
+  "N2000_reference_in_val": 300,
+  "N5000_reference_in_train": 0,
+  "N5000_reference_in_val": 300,
+  "disjoint_set": {
+    "n_images": 300,
+    "n_with_box": 296,
+    "n_boxes": 308,
+    "median_box_side": 0.2961773643116884
+  }
+}

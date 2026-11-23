@@ -1,0 +1,15 @@
+run,config,epochs_to_080_mean_curve,fold0,fold1,fold2,epochs_completed_min
+training run 2 (fixed 60 epochs),coco,16,11,15,17,60
+training run 2 (fixed 60 epochs),gbif500,17,12,18,21,60
+training run 2 (fixed 60 epochs),gbif2000,12,10,12,12,60
+training run 2 (fixed 60 epochs),gbif5000,12,10,10,12,60
+training run 2 (fixed 60 epochs),ct500,12,10,12,12,60
+training run 2 (fixed 60 epochs),ct2000,11,7,6,13,60
+training run 2 (fixed 60 epochs),ct5000,8,6,7,9,60
+training run 1,coco,13,11,13,17,60
+training run 1,gbif500,20,17,19,21,55
+training run 1,gbif2000,11,10,12,12,55
+training run 1,gbif5000,12,10,9,12,54
+training run 1,ct500,12,9,13,12,46
+training run 1,ct2000,6,6,6,11,33
+training run 1,ct5000,6,6,7,9,40

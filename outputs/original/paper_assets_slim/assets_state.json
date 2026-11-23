@@ -1,0 +1,209 @@
+{
+  "baseline": {
+    "0": {
+      "precision": 0.8567673134631729,
+      "recall": 0.8280542986425339,
+      "f1": 0.8421661400258489,
+      "mAP50": 0.909851027672976,
+      "mAP50_95": 0.42446514546791325
+    },
+    "1": {
+      "precision": 0.8241366304243254,
+      "recall": 0.7849056603773585,
+      "f1": 0.8040428891674215,
+      "mAP50": 0.8671835906530749,
+      "mAP50_95": 0.3948465063436951
+    },
+    "2": {
+      "precision": 0.8314241862689019,
+      "recall": 0.8166089965397924,
+      "f1": 0.8239499999518815,
+      "mAP50": 0.8803411779876994,
+      "mAP50_95": 0.381895293077957
+    }
+  },
+  "transfer": {
+    "gbif5000->flower333@640": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": false
+    },
+    "gbif5000->flower333@1280": {
+      "precision": 0.0017513134851138354,
+      "recall": 0.012903225806451613,
+      "f1": 0.0030840400925212026,
+      "mAP50": 3.338195480553378e-05,
+      "mAP50_95": 7.328422477360484e-06,
+      "in_domain": false
+    },
+    "gbif5000->camera_trap@640": {
+      "precision": 0.014565782827027739,
+      "recall": 0.036322360953461974,
+      "f1": 0.020793197869240415,
+      "mAP50": 0.005180696279937692,
+      "mAP50_95": 0.001687191722840229,
+      "in_domain": false
+    },
+    "gbif5000->camera_trap@1280": {
+      "precision": 0.36707373256112014,
+      "recall": 0.20034052213393871,
+      "f1": 0.2592100661357917,
+      "mAP50": 0.1916006653847369,
+      "mAP50_95": 0.07610928355828953,
+      "in_domain": false
+    },
+    "gbif5000->GBIF_pseudo@640": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": true
+    },
+    "gbif5000->GBIF_pseudo@1280": {
+      "precision": 0.0010090817356205853,
+      "recall": 0.4,
+      "f1": 0.0020130850528434826,
+      "mAP50": 0.0007775590551181102,
+      "mAP50_95": 0.000140501968503937,
+      "in_domain": true
+    },
+    "ct5000->flower333@640": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": false
+    },
+    "ct5000->flower333@1280": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": false
+    },
+    "ct5000->camera_trap@640": {
+      "precision": 0.8730628272510812,
+      "recall": 0.8654937570942112,
+      "f1": 0.8692618156243546,
+      "mAP50": 0.8915190210927217,
+      "mAP50_95": 0.48441362632398705,
+      "in_domain": true
+    },
+    "ct5000->camera_trap@1280": {
+      "precision": 0.8211313792762353,
+      "recall": 0.8363299661010943,
+      "f1": 0.82866098869811,
+      "mAP50": 0.8459814081635214,
+      "mAP50_95": 0.3926413172745813,
+      "in_domain": true
+    },
+    "ct5000->GBIF_pseudo@640": {
+      "precision": 0.0017152658662092624,
+      "recall": 0.1,
+      "f1": 0.003372681281618887,
+      "mAP50": 0.00038934426229508194,
+      "mAP50_95": 3.8934426229508194e-05,
+      "in_domain": false
+    },
+    "ct5000->GBIF_pseudo@1280": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": false
+    },
+    "deploy->flower333@640": {
+      "precision": 0.8065030331822981,
+      "recall": 0.7870967741935484,
+      "f1": 0.7966817426269733,
+      "mAP50": 0.804319684704405,
+      "mAP50_95": 0.28012794467564184,
+      "in_domain": true
+    },
+    "deploy->flower333@1280": {
+      "precision": 0.8613857329297304,
+      "recall": 0.9135483870967742,
+      "f1": 0.8867005688913987,
+      "mAP50": 0.9408878571489864,
+      "mAP50_95": 0.47769590126858363,
+      "in_domain": true
+    },
+    "deploy->camera_trap@640": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": false
+    },
+    "deploy->camera_trap@1280": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": false
+    },
+    "deploy->GBIF_pseudo@640": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": false
+    },
+    "deploy->GBIF_pseudo@1280": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mAP50": 0.0,
+      "mAP50_95": 0.0,
+      "in_domain": false
+    }
+  },
+  "dataset_stats": {
+    "flower333": {
+      "median_rel_area": 0.000184431568287037,
+      "median_box_frac_of_image": 0.000184431568287037,
+      "mean_objects_per_image": 2.3273273273273274,
+      "median_resolution_mp": 2.0736,
+      "median_sharpness": 6918.801605976885
+    },
+    "camera_trap": {
+      "median_rel_area": 0.002517375,
+      "median_box_frac_of_image": 0.002517375,
+      "mean_objects_per_image": 1.385,
+      "median_resolution_mp": 2.0736,
+      "median_sharpness": 4626.802521802369
+    },
+    "GBIF": {
+      "median_rel_area": 0.493343919563,
+      "median_box_frac_of_image": 0.493343919563,
+      "mean_objects_per_image": 0.3333333333333333,
+      "median_resolution_mp": 3.375,
+      "median_sharpness": 3484.6167532051913
+    }
+  },
+  "embedding": {
+    "flower333|camera_trap": 0.3659451488936769,
+    "flower333|GBIF": 0.8747125321911313,
+    "camera_trap|GBIF": 0.826494747595802
+  },
+  "qualitative": [
+    "frame_037436_t1297-6s_jpg.rf.ADsjJsB4sAhkTodHOOCG.jpg",
+    "frame_006492_t225-0s_jpg.rf.RmOspQqcQuYSXlOu05hX.jpg",
+    "frame_001543_t53-5s_jpg.rf.tidnQwt2G9O3X9DRgvLu.jpg",
+    "frame_016854_t584-2s_jpg.rf.Oo6GiCTNySbso5DinMpS.jpg",
+    "frame_015328_t531-3s_jpg.rf.ssPxqoOwlaXLLyTrg1bI.jpg",
+    "frame_013842_t479-8s_jpg.rf.EcWqSmgs1b4jYkzfzKK9.jpg",
+    "frame_008560_t296-7s_jpg.rf.TxaAggcETiTG6G5B0Qfk.jpg",
+    "frame_005810_t201-4s_jpg.rf.3qTUTiuLCT2rJUBuPnNn.jpg"
+  ]
+}

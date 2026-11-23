@@ -1,0 +1,13 @@
+run,config,pretrain_units,control_epochs_to_080,epochs_to_080,epochs_saved,saved_units,target_datasets_to_break_even
+training run 1,gbif500,12750,13.0,20.0,-7.0,-6216.0,
+training run 1,gbif2000,51000,13.0,11.0,2.0,1776.0,28.716216216216218
+training run 1,gbif5000,127500,13.0,12.0,1.0,888.0,143.5810810810811
+training run 1,ct500,12750,13.0,12.0,1.0,888.0,14.358108108108109
+training run 1,ct2000,51000,13.0,6.0,7.0,6216.0,8.204633204633204
+training run 1,ct5000,127500,13.0,6.0,7.0,6216.0,20.51158301158301
+training run 2 (fixed 60 epochs),gbif500,12750,16.0,17.0,-1.0,-888.0,
+training run 2 (fixed 60 epochs),gbif2000,51000,16.0,12.0,4.0,3552.0,14.358108108108109
+training run 2 (fixed 60 epochs),gbif5000,127500,16.0,12.0,4.0,3552.0,35.895270270270274
+training run 2 (fixed 60 epochs),ct500,12750,16.0,12.0,4.0,3552.0,3.589527027027027
+training run 2 (fixed 60 epochs),ct2000,51000,16.0,11.0,5.0,4440.0,11.486486486486486
+training run 2 (fixed 60 epochs),ct5000,127500,16.0,8.0,8.0,7104.0,17.947635135135137

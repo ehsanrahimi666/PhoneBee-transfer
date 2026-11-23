@@ -1,0 +1,44 @@
+{
+  "phonebee_frames": 333,
+  "phonebee_boxes": 775,
+  "phonebee_frames_without_bee": 2,
+  "phonebee_boxes_per_fold": {
+    "0": 221,
+    "1": 265,
+    "2": 289
+  },
+  "camera_trap": {
+    "n_images": 6619,
+    "kept_boxes": 9044,
+    "dropped_boxes": 1287,
+    "n_test": 1300,
+    "test_boxes": 1762,
+    "hist": {
+      "1": 9044,
+      "10": 69,
+      "3": 301,
+      "11": 54,
+      "0": 162,
+      "14": 165,
+      "2": 144,
+      "12": 42,
+      "6": 106,
+      "8": 16,
+      "9": 37,
+      "7": 106,
+      "13": 5,
+      "5": 35,
+      "4": 45
+    },
+    "boxes_per_image": 1.3663695422269224
+  },
+  "gbif_reference_original": {
+    "n_images": 300,
+    "n_boxes": 325,
+    "boxes_per_image": 1.0833333333333333,
+    "median_rel_area": 0.10441482831,
+    "median_box_side_frac": 0.32313283384701097,
+    "median_resolution_mp": 0.786432,
+    "median_sharpness": 889.3099337661406
+  }
+}

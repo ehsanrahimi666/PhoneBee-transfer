@@ -1,0 +1,1009 @@
+{
+  "exemplars": {
+    "phonebee": [
+      {
+        "file": "phonebee_0.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_007432_t257-6s_jpg.rf.FjsiBeQ0AjJMEnswJpdg.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.188765625,
+            0.1915462962962963,
+            0.007635416666666667,
+            0.013574074074074073
+          ],
+          [
+            0.7619322916666668,
+            0.4246851851851852,
+            0.009703125,
+            0.026657407407407407
+          ]
+        ]
+      },
+      {
+        "file": "phonebee_1.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_001604_t55-6s_jpg.rf.sD7fssGbbhaz4wHs4CTa.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.5439010416666666,
+            0.7420925925925926,
+            0.011854166666666667,
+            0.02137962962962963
+          ],
+          [
+            0.2774010416666667,
+            0.35317592592592595,
+            0.006458333333333333,
+            0.01987962962962963
+          ],
+          [
+            0.25361979166666665,
+            0.3843888888888889,
+            0.012125,
+            0.01287962962962963
+          ],
+          [
+            0.6110885416666666,
+            0.038240740740740735,
+            0.011250000000000001,
+            0.014351851851851852
+          ]
+        ]
+      },
+      {
+        "file": "phonebee_2.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/valid/images/frame_017607_t610-3s_jpg.rf.D0Fmc78e9DAiZbJqaV7a.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.7145364583333333,
+            0.3399351851851852,
+            0.008776041666666668,
+            0.022935185185185183
+          ],
+          [
+            0.671828125,
+            0.46494444444444444,
+            0.008515625,
+            0.02798148148148148
+          ]
+        ]
+      },
+      {
+        "file": "phonebee_3.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_015850_t549-4s_jpg.rf.4Crm1msgiO7s4G8LlCOg.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.3356145833333333,
+            0.37665740740740744,
+            0.011250000000000001,
+            0.018435185185185186
+          ]
+        ]
+      },
+      {
+        "file": "phonebee_4.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_014388_t498-7s_jpg.rf.cBBDgixEsxHonw51rvbO.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.36902604166666664,
+            0.10767592592592592,
+            0.007135416666666667,
+            0.01740740740740741
+          ],
+          [
+            0.41256770833333334,
+            0.04586111111111111,
+            0.011828125,
+            0.011962962962962963
+          ]
+        ]
+      },
+      {
+        "file": "phonebee_5.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_008936_t309-7s_jpg.rf.72O6qZzEyQvoJZB4jVNu.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.6424010416666667,
+            0.40224074074074073,
+            0.010869791666666666,
+            0.023074074074074077
+          ]
+        ]
+      }
+    ],
+    "camera_trap": [
+      {
+        "file": "camera_trap_0.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/apis-mellifera/Apis_mellifera/S4_199-Sep06_0_28-20190830181330.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.380208,
+            0.425,
+            0.030208,
+            0.072222
+          ]
+        ]
+      },
+      {
+        "file": "camera_trap_1.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/apis-mellifera/Apis_mellifera/S1_146-Aug30_0_327-20190828124300.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.648698,
+            0.446296,
+            0.028646,
+            0.075926
+          ]
+        ]
+      },
+      {
+        "file": "camera_trap_2.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/apis-mellifera/Apis_mellifera/S4_199-Aug30_0_213-20190827134800.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.18099,
+            0.225463,
+            0.040104,
+            0.052778
+          ]
+        ]
+      },
+      {
+        "file": "camera_trap_3.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/apis-mellifera/Apis_mellifera/S4_199-Sep06_0_97-20190831143430.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.153906,
+            0.138426,
+            0.042188,
+            0.058333
+          ]
+        ]
+      },
+      {
+        "file": "camera_trap_4.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/apis-mellifera/Apis_mellifera/S3_194-Sep06_1_20-20190830141530.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.970573,
+            0.356019,
+            0.028646,
+            0.062037
+          ]
+        ]
+      },
+      {
+        "file": "camera_trap_5.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/apis-mellifera/Apis_mellifera/S1_146-Aug30_0_177-20190826143030.jpg",
+        "orig_w": 1920,
+        "orig_h": 1080,
+        "boxes_xywhn": [
+          [
+            0.536458,
+            0.478704,
+            0.055208,
+            0.07037
+          ]
+        ]
+      }
+    ],
+    "gbif": [
+      {
+        "file": "gbif_0.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6253016644.jpg",
+        "orig_w": 768,
+        "orig_h": 1024,
+        "boxes_xywhn": [
+          [
+            0.32723647356033325,
+            0.7591795921325684,
+            0.6371289491653442,
+            0.31794166564941406
+          ]
+        ]
+      },
+      {
+        "file": "gbif_1.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412075187.jpg",
+        "orig_w": 1000,
+        "orig_h": 1000,
+        "boxes_xywhn": [
+          [
+            0.5485912170410157,
+            0.414301513671875,
+            0.32283221435546877,
+            0.224873046875
+          ]
+        ]
+      },
+      {
+        "file": "gbif_2.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6412661012.jpg",
+        "orig_w": 1000,
+        "orig_h": 1000,
+        "boxes_xywhn": [
+          [
+            0.4851499328613281,
+            0.465838493347168,
+            0.4062575073242187,
+            0.43001197814941405
+          ]
+        ]
+      },
+      {
+        "file": "gbif_3.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6400666388.jpg",
+        "orig_w": 768,
+        "orig_h": 1024,
+        "boxes_xywhn": [
+          [
+            0.6203523476918539,
+            0.45419445633888245,
+            0.2611503601074219,
+            0.11659210920333862
+          ]
+        ]
+      },
+      {
+        "file": "gbif_4.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6423159871.jpg",
+        "orig_w": 576,
+        "orig_h": 1024,
+        "boxes_xywhn": [
+          [
+            0.458816581302219,
+            0.47373995184898376,
+            0.26725218031141496,
+            0.11899131536483765
+          ]
+        ]
+      },
+      {
+        "file": "gbif_5.jpg",
+        "source": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees/images/6235743941.jpg",
+        "orig_w": 835,
+        "orig_h": 1024,
+        "boxes_xywhn": [
+          [
+            0.4148718736842721,
+            0.521943211555481,
+            0.4696260189581774,
+            0.40578651428222656
+          ]
+        ]
+      }
+    ]
+  },
+  "qualitative": [
+    {
+      "file": "q_0.jpg",
+      "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_037700_t1306-8s_jpg.rf.YOt7QPJESqHbkXKBdd46.jpg",
+      "orig_w": 1920,
+      "orig_h": 1080,
+      "gt_xywhn": [
+        [
+          0.303234375,
+          0.432537037037037,
+          0.006223958333333333,
+          0.015166666666666665
+        ],
+        [
+          0.5986302083333332,
+          0.008194444444444443,
+          0.008760416666666666,
+          0.012296296296296296
+        ],
+        [
+          0.7172135416666666,
+          0.7676944444444445,
+          0.010255208333333333,
+          0.017342592592592593
+        ]
+      ],
+      "preds": {
+        "gbif5000": [],
+        "ct5000": [
+          {
+            "xywhn": [
+              0.9250835100809733,
+              0.9696060180664062,
+              0.028445116678873696,
+              0.05276116265190972
+            ],
+            "conf": 0.7094
+          },
+          {
+            "xywhn": [
+              0.2287889321645101,
+              0.9765544750072338,
+              0.031183783213297525,
+              0.04689104998553241
+            ],
+            "conf": 0.6843
+          },
+          {
+            "xywhn": [
+              0.1344593604405721,
+              0.9496367560492621,
+              0.0278348445892334,
+              0.05446929931640625
+            ],
+            "conf": 0.2744
+          }
+        ],
+        "phonebee": [
+          {
+            "xywhn": [
+              0.5981647173563639,
+              0.007206483681996664,
+              0.009808667500813802,
+              0.012535579999287923
+            ],
+            "conf": 0.6158
+          },
+          {
+            "xywhn": [
+              0.30311872164408366,
+              0.43277097631383826,
+              0.008106517791748046,
+              0.01651529382776331
+            ],
+            "conf": 0.3971
+          },
+          {
+            "xywhn": [
+              0.718146800994873,
+              0.7687406751844618,
+              0.011967150370279948,
+              0.02298550075954861
+            ],
+            "conf": 0.3113
+          }
+        ]
+      }
+    },
+    {
+      "file": "q_1.jpg",
+      "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_030932_t1072-2s_jpg.rf.w2fXto9aNFjQDZh2piOt.jpg",
+      "orig_w": 1920,
+      "orig_h": 1080,
+      "gt_xywhn": [
+        [
+          0.5230052083333333,
+          0.8087685185185185,
+          0.008755208333333332,
+          0.028981481481481483
+        ],
+        [
+          0.45523437499999997,
+          0.4736111111111111,
+          0.011473958333333334,
+          0.01986111111111111
+        ],
+        [
+          0.2389375,
+          0.4317592592592593,
+          0.008151041666666668,
+          0.01986111111111111
+        ],
+        [
+          0.30852083333333336,
+          0.17737037037037037,
+          0.014489583333333333,
+          0.013416666666666667
+        ]
+      ],
+      "preds": {
+        "gbif5000": [],
+        "ct5000": [
+          {
+            "xywhn": [
+              0.2267606019973755,
+              0.9753667760778356,
+              0.02844204902648926,
+              0.0492664478443287
+            ],
+            "conf": 0.78
+          }
+        ],
+        "phonebee": [
+          {
+            "xywhn": [
+              0.45431079864501955,
+              0.4733550036395038,
+              0.01369171142578125,
+              0.016608994095413773
+            ],
+            "conf": 0.7672
+          },
+          {
+            "xywhn": [
+              0.2384326934814453,
+              0.4306454411259404,
+              0.010394541422526042,
+              0.018432786729600695
+            ],
+            "conf": 0.696
+          },
+          {
+            "xywhn": [
+              0.5213210582733154,
+              0.8074244181315104,
+              0.007936573028564453,
+              0.027332786277488426
+            ],
+            "conf": 0.5635
+          },
+          {
+            "xywhn": [
+              0.3092422803243001,
+              0.1750785403781467,
+              0.012262852986653645,
+              0.015041068748191552
+            ],
+            "conf": 0.5618
+          }
+        ]
+      }
+    },
+    {
+      "file": "q_2.jpg",
+      "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_008822_t305-8s_jpg.rf.YGgKjetWAkaBt016lkxw.jpg",
+      "orig_w": 1920,
+      "orig_h": 1080,
+      "gt_xywhn": [
+        [
+          0.08873958333333333,
+          0.3137962962962963,
+          0.008197916666666668,
+          0.019342592592592592
+        ],
+        [
+          0.6426875,
+          0.4036018518518518,
+          0.013328125,
+          0.01990740740740741
+        ]
+      ],
+      "preds": {
+        "gbif5000": [],
+        "ct5000": [
+          {
+            "xywhn": [
+              0.22606678009033204,
+              0.979215325249566,
+              0.028775533040364582,
+              0.041569349500868054
+            ],
+            "conf": 0.5641
+          },
+          {
+            "xywhn": [
+              0.9203736623128255,
+              0.967713306568287,
+              0.02876561482747396,
+              0.05475667317708333
+            ],
+            "conf": 0.3716
+          }
+        ],
+        "phonebee": [
+          {
+            "xywhn": [
+              0.6426833788553874,
+              0.4027756443730107,
+              0.011558469136555989,
+              0.02137990880895544
+            ],
+            "conf": 0.8085
+          },
+          {
+            "xywhn": [
+              0.08854026397069295,
+              0.3144207142017506,
+              0.007999730110168458,
+              0.019406410499855323
+            ],
+            "conf": 0.7292
+          },
+          {
+            "xywhn": [
+              0.29778056144714354,
+              0.8322553564001013,
+              0.01256856918334961,
+              0.0201589513708044
+            ],
+            "conf": 0.5393
+          }
+        ]
+      }
+    },
+    {
+      "file": "q_3.jpg",
+      "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_020404_t707-3s_jpg.rf.x4H9oUejy6cTDK2yA7o8.jpg",
+      "orig_w": 1920,
+      "orig_h": 1080,
+      "gt_xywhn": [
+        [
+          0.5401614583333333,
+          0.7292129629629629,
+          0.010989583333333334,
+          0.016185185185185184
+        ],
+        [
+          0.2555572916666667,
+          0.23162962962962963,
+          0.008791666666666666,
+          0.010046296296296296
+        ],
+        [
+          0.8060781250000001,
+          0.3440925925925926,
+          0.009104166666666667,
+          0.019537037037037037
+        ],
+        [
+          0.7627552083333333,
+          0.42475,
+          0.010989583333333334,
+          0.01450925925925926
+        ],
+        [
+          0.5282291666666666,
+          0.9597222222222223,
+          0.010989583333333334,
+          0.018416666666666668
+        ]
+      ],
+      "preds": {
+        "gbif5000": [],
+        "ct5000": [
+          {
+            "xywhn": [
+              0.22615931034088135,
+              0.9771436903211805,
+              0.02907452583312988,
+              0.04571261935763889
+            ],
+            "conf": 0.5695
+          },
+          {
+            "xywhn": [
+              0.9196220715840657,
+              0.9622383965386285,
+              0.0271267573038737,
+              0.05378971806278935
+            ],
+            "conf": 0.5623
+          },
+          {
+            "xywhn": [
+              0.12840980688730877,
+              0.9500193843135127,
+              0.02529301643371582,
+              0.051706836841724536
+            ],
+            "conf": 0.4851
+          }
+        ],
+        "phonebee": [
+          {
+            "xywhn": [
+              0.5410371780395508,
+              0.7284751609519676,
+              0.011710484822591146,
+              0.017796043113425926
+            ],
+            "conf": 0.7816
+          },
+          {
+            "xywhn": [
+              0.7649128913879395,
+              0.4237757364908854,
+              0.01465002695719401,
+              0.017029712818287038
+            ],
+            "conf": 0.7473
+          },
+          {
+            "xywhn": [
+              0.5281437238057455,
+              0.9588715729890046,
+              0.011455726623535157,
+              0.023521592881944445
+            ],
+            "conf": 0.7185
+          },
+          {
+            "xywhn": [
+              0.8058686892191569,
+              0.3439517550998264,
+              0.010628573099772136,
+              0.020133011429398148
+            ],
+            "conf": 0.6287
+          },
+          {
+            "xywhn": [
+              0.25508001645406086,
+              0.2310646410341616,
+              0.00833565394083659,
+              0.010715753060800057
+            ],
+            "conf": 0.4607
+          }
+        ]
+      }
+    },
+    {
+      "file": "q_4.jpg",
+      "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/valid/images/frame_015140_t524-8s_jpg.rf.A6V0qZo0eQQl4pGhXh7X.jpg",
+      "orig_w": 1920,
+      "orig_h": 1080,
+      "gt_xywhn": [
+        [
+          0.3394375,
+          0.15,
+          0.009026041666666667,
+          0.010027777777777778
+        ],
+        [
+          0.36353125000000003,
+          0.11432407407407408,
+          0.01015625,
+          0.011462962962962963
+        ],
+        [
+          0.5998125000000001,
+          0.18760185185185185,
+          0.010083333333333333,
+          0.018305555555555554
+        ],
+        [
+          0.806546875,
+          0.3450185185185185,
+          0.012770833333333334,
+          0.019712962962962963
+        ],
+        [
+          0.06250520833333334,
+          0.48213888888888895,
+          0.009411458333333334,
+          0.02150925925925926
+        ]
+      ],
+      "preds": {
+        "gbif5000": [],
+        "ct5000": [
+          {
+            "xywhn": [
+              0.9200295130411784,
+              0.9645000316478588,
+              0.028852462768554688,
+              0.05602710865162037
+            ],
+            "conf": 0.3526
+          },
+          {
+            "xywhn": [
+              0.22520004908243815,
+              0.9772022388599537,
+              0.030824025472005207,
+              0.045595522280092594
+            ],
+            "conf": 0.3203
+          }
+        ],
+        "phonebee": [
+          {
+            "xywhn": [
+              0.3634760061899821,
+              0.11294962565104166,
+              0.011029338836669922,
+              0.013210607458043982
+            ],
+            "conf": 0.7349
+          },
+          {
+            "xywhn": [
+              0.8068260192871094,
+              0.3442100807472512,
+              0.013458506266276041,
+              0.015727403428819446
+            ],
+            "conf": 0.479
+          },
+          {
+            "xywhn": [
+              0.6001553535461426,
+              0.1892669889662001,
+              0.011224937438964844,
+              0.01640832689073351
+            ],
+            "conf": 0.4385
+          },
+          {
+            "xywhn": [
+              0.338517697652181,
+              0.14914319780137802,
+              0.010905838012695313,
+              0.013206891660337094
+            ],
+            "conf": 0.4321
+          },
+          {
+            "xywhn": [
+              0.06242793798446655,
+              0.48155639083297164,
+              0.009661221504211425,
+              0.020937714753327546
+            ],
+            "conf": 0.3854
+          }
+        ]
+      }
+    },
+    {
+      "file": "q_5.jpg",
+      "source": "/kaggle/input/datasets/ehsanrahimi666/flower333/train/images/frame_020870_t723-4s_jpg.rf.2cl0i5cJIGubggl9wAAw.jpg",
+      "orig_w": 1920,
+      "orig_h": 1080,
+      "gt_xywhn": [
+        [
+          0.5121979166666667,
+          0.7039907407407406,
+          0.011010416666666667,
+          0.02
+        ],
+        [
+          0.34177083333333336,
+          0.34517592592592594,
+          0.008796875000000001,
+          0.016731481481481483
+        ]
+      ],
+      "preds": {
+        "gbif5000": [],
+        "ct5000": [
+          {
+            "xywhn": [
+              0.9196981430053711,
+              0.963453448260272,
+              0.027353541056315104,
+              0.05367804633246528
+            ],
+            "conf": 0.4995
+          },
+          {
+            "xywhn": [
+              0.12803107897440594,
+              0.9483280323169849,
+              0.024000771840413413,
+              0.05265898527922454
+            ],
+            "conf": 0.4731
+          },
+          {
+            "xywhn": [
+              0.22642919222513835,
+              0.9773134019639756,
+              0.028844610850016276,
+              0.04537319607204861
+            ],
+            "conf": 0.3098
+          }
+        ],
+        "phonebee": [
+          {
+            "xywhn": [
+              0.513417116800944,
+              0.7042995594165943,
+              0.012289301554361979,
+              0.019513335051359954
+            ],
+            "conf": 0.8077
+          },
+          {
+            "xywhn": [
+              0.188373867670695,
+              0.15968590489140264,
+              0.008355045318603515,
+              0.015839767456054688
+            ],
+            "conf": 0.3911
+          }
+        ]
+      }
+    }
+  ],
+  "crops": [
+    {
+      "file": "ctcrop_0.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_000288_t10-0s_jpg.rf.AvVR5S2OrRdxIvaypOTz.jpg",
+      "conf": 0.6486,
+      "box_side_pct": 3.813
+    },
+    {
+      "file": "ctcrop_1.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_000382_t13-2s_jpg.rf.e8EjJYC3QXqid8eiLzqe.jpg",
+      "conf": 0.6951,
+      "box_side_pct": 3.856
+    },
+    {
+      "file": "ctcrop_2.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_000476_t16-5s_jpg.rf.86eSCRzF0LCg99VX7zxq.jpg",
+      "conf": 0.7454,
+      "box_side_pct": 3.801
+    },
+    {
+      "file": "ctcrop_3.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_000539_t18-7s_jpg.rf.NWn6X9wJORQbEsAiMuvx.jpg",
+      "conf": 0.6277,
+      "box_side_pct": 3.872
+    },
+    {
+      "file": "ctcrop_4.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_000664_t23-0s_jpg.rf.i6gBrPuORhs4EbVvYiQ9.jpg",
+      "conf": 0.6802,
+      "box_side_pct": 3.334
+    },
+    {
+      "file": "ctcrop_5.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_000790_t27-4s_jpg.rf.MwFynwOzlhM6iNgkdYdM.jpg",
+      "conf": 0.7479,
+      "box_side_pct": 3.861
+    },
+    {
+      "file": "ctcrop_6.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_000852_t29-5s_jpg.rf.DAe5lf1GwpMdJpJIb8BK.jpg",
+      "conf": 0.7047,
+      "box_side_pct": 3.386
+    },
+    {
+      "file": "ctcrop_7.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_001040_t36-0s_jpg.rf.F9jCK3iHJF4M6hxuScOP.jpg",
+      "conf": 0.7566,
+      "box_side_pct": 3.879
+    },
+    {
+      "file": "ctcrop_8.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_001041_t36-1s_jpg.rf.ulBQSdgpKoFLnUrhZxGm.jpg",
+      "conf": 0.7574,
+      "box_side_pct": 3.861
+    },
+    {
+      "file": "ctcrop_9.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_001228_t42-6s_jpg.rf.ugKFOaE1EAN3711pxhAJ.jpg",
+      "conf": 0.6598,
+      "box_side_pct": 3.382
+    },
+    {
+      "file": "ctcrop_10.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_001292_t44-8s_jpg.rf.GPebBoQ95hk4EXZEENbJ.jpg",
+      "conf": 0.7341,
+      "box_side_pct": 3.831
+    },
+    {
+      "file": "ctcrop_11.jpg",
+      "kind": "camera-trap prediction",
+      "source": "frame_001416_t49-1s_jpg.rf.zoJu3eeQYDGLG5lBgZ7V.jpg",
+      "conf": 0.6834,
+      "box_side_pct": 3.358
+    },
+    {
+      "file": "gtcrop_0.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_000288_t10-0s_jpg.rf.AvVR5S2OrRdxIvaypOTz.jpg",
+      "box_side_pct": 1.682
+    },
+    {
+      "file": "gtcrop_1.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_000476_t16-5s_jpg.rf.86eSCRzF0LCg99VX7zxq.jpg",
+      "box_side_pct": 1.555
+    },
+    {
+      "file": "gtcrop_2.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_000539_t18-7s_jpg.rf.NWn6X9wJORQbEsAiMuvx.jpg",
+      "box_side_pct": 1.169
+    },
+    {
+      "file": "gtcrop_3.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_000664_t23-0s_jpg.rf.i6gBrPuORhs4EbVvYiQ9.jpg",
+      "box_side_pct": 1.519
+    },
+    {
+      "file": "gtcrop_4.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_000790_t27-4s_jpg.rf.MwFynwOzlhM6iNgkdYdM.jpg",
+      "box_side_pct": 1.704
+    },
+    {
+      "file": "gtcrop_5.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_000852_t29-5s_jpg.rf.DAe5lf1GwpMdJpJIb8BK.jpg",
+      "box_side_pct": 1.486
+    },
+    {
+      "file": "gtcrop_6.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_001040_t36-0s_jpg.rf.F9jCK3iHJF4M6hxuScOP.jpg",
+      "box_side_pct": 1.818
+    },
+    {
+      "file": "gtcrop_7.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_001041_t36-1s_jpg.rf.ulBQSdgpKoFLnUrhZxGm.jpg",
+      "box_side_pct": 1.864
+    },
+    {
+      "file": "gtcrop_8.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_001228_t42-6s_jpg.rf.ugKFOaE1EAN3711pxhAJ.jpg",
+      "box_side_pct": 0.989
+    },
+    {
+      "file": "gtcrop_9.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_001292_t44-8s_jpg.rf.GPebBoQ95hk4EXZEENbJ.jpg",
+      "box_side_pct": 1.817
+    },
+    {
+      "file": "gtcrop_10.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_001416_t49-1s_jpg.rf.zoJu3eeQYDGLG5lBgZ7V.jpg",
+      "box_side_pct": 1.663
+    },
+    {
+      "file": "gtcrop_11.jpg",
+      "kind": "ground-truth bee",
+      "source": "frame_001543_t53-5s_jpg.rf.tidnQwt2G9O3X9DRgvLu.jpg",
+      "box_side_pct": 1.589
+    }
+  ],
+  "missing": [],
+  "found": {
+    "phonebee": "/kaggle/input/datasets/ehsanrahimi666/flower333",
+    "camera_trap": "/kaggle/input/datasets/ehsanrahimi666/apis-mellifera",
+    "gbif": "/kaggle/input/datasets/ehsanrahimi666/gbif-honeybees",
+    "weights": {
+      "gbif5000": "/kaggle/input/datasets/ehsanrahimi666/gbif5000/gbif5000_pretrained.pt",
+      "ct5000": "/kaggle/input/datasets/ehsanrahimi666/ct5000/ct5000_pretrained.pt",
+      "phonebee": "/kaggle/input/datasets/ehsanrahimi666/yolo26n/flower333_yolo26n_deploy.pt"
+    }
+  }
+}

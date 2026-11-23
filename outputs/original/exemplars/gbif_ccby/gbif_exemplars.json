@@ -1,0 +1,56 @@
+[
+ {
+  "occurrence_key": "6413313581",
+  "file": "6413313581.jpg",
+  "creator": "Cara Ennis",
+  "rights_holder": "Cara Ennis",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/682122250/original.jpg",
+  "page": "https://www.inaturalist.org/photos/682122250",
+  "dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+  "boxes_xywhn": [
+   [
+    0.540419,
+    0.400253,
+    0.251175,
+    0.421464
+   ]
+  ]
+ },
+ {
+  "occurrence_key": "6321158989",
+  "file": "6321158989.jpg",
+  "creator": "Phoenix M.S",
+  "rights_holder": "Phoenix M.S",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/661660989/original.jpg",
+  "page": "https://www.inaturalist.org/photos/661660989",
+  "dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+  "boxes_xywhn": [
+   [
+    0.453458,
+    0.418761,
+    0.502976,
+    0.764806
+   ]
+  ]
+ },
+ {
+  "occurrence_key": "6236380667",
+  "file": "6236380667.jpg",
+  "creator": "Jo Roberts",
+  "rights_holder": "Jo Roberts",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642364795/original.jpg",
+  "page": "https://www.inaturalist.org/photos/642364795",
+  "dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+  "boxes_xywhn": [
+   [
+    0.545065,
+    0.594458,
+    0.243651,
+    0.194776
+   ]
+  ]
+ }
+]
